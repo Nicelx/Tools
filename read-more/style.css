@@ -1,0 +1,3 @@
+.read-more-expanded:not(#fakeClass) {
+    height:fit-content;
+}
