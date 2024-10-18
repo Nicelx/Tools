@@ -33,3 +33,11 @@ class Modal {
         this.backdrop.classList.remove('opened');
     }
 }
+
+
+// example 
+new Modal({
+    modalContainer: '.n',
+    triggers: ['.triggerSelectors'],
+    closers: ['.anycloseSelectors']
+});
