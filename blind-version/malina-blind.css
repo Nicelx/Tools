@@ -1,0 +1,308 @@
+:root {
+    --blind-bg: white;
+    --blind-text: black;
+    --font-base: 24px;
+    --font-medium: 32px;
+    --font-big: 40px;
+    --font-size: var(--font-big);
+
+    --section-margin: 60px;
+    --is-img : 'inline-block';
+    --kerning: 1px;
+    --line-height: 100%;
+}
+
+body.blindEnabled .nojq {
+    display: none;
+}
+body.blindEnabled {
+    background-color: var(--blind-bg);
+    color: var(--blind-text);
+    font-size: var(--font-size);
+}
+body.blindEnabled *{
+    letter-spacing: var(--kerning);
+    line-height: var(--line-height);
+}
+
+.blind__visible-flex:not(#fakeId) {
+    display: flex;
+}
+.blindEnabled button {
+    background-color: var(--blind-bg);
+    color: var(--blind-text);
+    padding:10px 30px;
+    border: 2px solid var(--blind-text);
+}
+.blindEnabled :is(section, div:not(.blind-panel div)) {
+    padding-inline: 20px;
+}
+
+.blindEnabled button:not(.blind-panel button) {
+    font-size: inherit;
+}
+.blindEnabled button:focus:not(.splide__arrow) {
+    transform: scale(1.2);
+}
+
+.blindEnabled :is(span,p,button,div,a,li) {
+    font-weight: 600;
+}
+.blindEnabled a:not(.blind__nav-link, .blind__link-card) {
+    text-decoration: underline;
+}
+.blindEnabled img {
+    display: var(--is-img);
+}
+.blindEnabled li {
+    justify-content: center;
+    display: flex;
+}
+/* panel */
+
+.blind-panel {
+    top: 0;
+    width: 100%;
+    background-color: var(--blind-bg);
+    display: flex;
+    flex-direction: column;
+    padding-block : 20px;
+    padding-inline: 30px;
+    border-bottom: 2px solid var(--blind-text);
+    z-index: 20;
+    font-size: var(--font-base);
+    gap: 10px;
+    
+}
+.blind-panel__visible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blind-panel__hidden {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.panel-block {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: start;
+    gap: 5px;
+}
+.panel__btn:not(#fakeId) {
+    padding: 10px;
+    padding-inline: 10px;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+.panel__btn--WB:not(#fakeId) {
+    background-color: white;
+    color: black;
+}
+.panel__btn--BW:not(#fakeId) {
+    background-color: black;
+    color: white;
+}
+.panel__btn--BB:not(#fakeId) {
+    background-color: #9DD1FF;
+    color: #063462;
+}
+.panel__btn--beige:not(#fakeId) {
+    background-color: #f7f3d6;
+    color: #4d4b43;
+}
+.panel__btn--brown:not(#fakeId) {
+    background-color: #3b2716;
+    color: #a9e44d;
+}
+
+
+/* navigation component */
+
+.blind__nav {
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
+    text-align: center;
+}
+.blind__nav :is(ul, li) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blind__inner:not(#fakeId) {
+    display: none;
+}
+.blind__inner--open:not(#fakeId) {
+    display: flex;
+}
+
+/* block component */
+.blind__section {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--section-margin);
+}
+.blind__section :is(p,a) {
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.blind__title {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.blind__img {
+    width: 100%;
+}
+/* slide  */
+.blindEnabled .splide {
+    margin-bottom: var(--section-margin);
+}
+.blind__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.blind__slide img {
+    max-height: 60vh;
+    width: 80%;
+    object-fit: cover;
+}
+.blindEnabled .splide__pagination__page {
+    padding: 0;
+}
+.blindEnabled .splide__pagination__page.is-active {
+    background-color: var(--blind-text);
+}
+.blindEnabled .splide__arrow {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:50%;
+    background-color: transparent;
+}
+.blindEnabled .splide__arrow:focus.splide__arrow::after {
+    width: 25px;
+    height: 25px;
+}
+.blindEnabled .splide__arrow--next {
+    right: 30px;
+}
+.blindEnabled .splide__arrow--prev {
+    left: 30px;
+}
+.blindEnabled .splide__arrow::after,
+.blindEnabled .spide__arrow::before {
+    border: solid var(--blind-text);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    background: none;
+}
+.blindEnabled .splide__arrow::after {
+    transform: rotate(-45deg);
+}
+.blindEnabled .splide__arrow--prev::after {
+    transform: rotate(135deg);
+}
+
+/* forms */
+
+.blindEnabled form {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: var(--section-margin);
+}
+.blindEnabled :is(input:not(input[type="checkbox"]), select, option) {
+    width: 100%;
+    font-size: var(--font-size);
+    margin-bottom: 20px;
+    color: var(--blind-text);
+    background-color: var(--blind-bg);
+    border: 3px solid var(--blind-text);
+}
+.blindEnabled input[type="checkbox"] {
+    width: 32px;
+    height: 32px;
+}
+
+/* modal */
+.blind__backdrop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 25;
+    display: none;
+}
+.blind__backdrop--opened {
+    display: block;
+}
+.blind__modal {
+    padding: 40px 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    width: 800px;
+    min-height: 400px;
+    border-radius: 20px;
+    background-color: var(--blind-bg);
+}
+.blind__modal form {
+    width: 100%;
+}
+.blind__close {
+    display: block;
+    margin: 0 auto;
+}
+/* card component */
+.blind__card-collection div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blind__link-card {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--blind-text);
+    color: var(--blind-bg) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+.blind__link-card * {
+    text-align: center;
+}
+.blind__link-card img {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .blindEnabled :is(section, div:not(.blind-panel div)) {
+        padding-inline: 4px;
+    }
+    .blind-panel {
+        flex-direction: column;
+    }
+    .panel-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blindEnabled form {
+        width: 90%;
+    }
+}
