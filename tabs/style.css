@@ -9,6 +9,9 @@
 .n__tabs div.tab-item {
 	display: none;
 }
+.n__tabs button.tab-item {
+    transition: .2s ease-in-out;
+}
 
 /* end of copying */
 
