@@ -1,0 +1,18 @@
+/* copy this */
+
+.n__tabs div[data-tabs] {
+    display: none;
+}
+.n__opened:not(#fakeId) {
+	display: block;
+}
+.n__tabs .active-tab {
+    background-color: red;
+}
+
+/* end of copying */
+
+
+.content>div{
+    display: none;
+}
