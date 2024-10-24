@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .stars-container {
+            width: 230px;
+        }
+
+        /* start copying */
+        .n__stars-ratings {
+            width: 100%;
+            position: relative;
+        }
+
+        .n__stars-ratings img:first-child {
+            position: absolute;
+            filter: grayscale(1);
+        }
+
+        .n__stars-ratings img:last-child {
+            left: 0;
+            z-index: 1;
+            top: 0;
+        }
+        /* end copying */
+    </style>
+</head>
+
+<body>
+    <div class="stars-container">
+        <!-- start copying -->
+        <div class="n__stars-ratings" data-rating = "4.5" data-step = "15">
+            <img src="https://shtokolov.com/wp-content/themes/shtokolov/assets/svg/stars.svg" alt="">
+            <img src="https://shtokolov.com/wp-content/themes/shtokolov/assets/svg/stars.svg" alt="">
+        </div>
+        <!-- end of copying -->
+    </div>
+
+
+    <script>
+        // start copying
+        function n_starsRating() {
+            const elements = document.querySelectorAll('.n__stars-ratings');
+            if (elements.length == 0) return;
+
+            elements.forEach(element => {
+                let rating = element.dataset.rating;
+                let step = element.dataset.step;
+                let gap = (100 - (step * 5))/4;
+                let modulo = (rating % 1);
+                let trunc = Math.trunc(rating);
+               
+                let perc = trunc * step + trunc * gap + modulo * step;
+                
+                element.lastElementChild.style.clipPath = `polygon(0% 0%, 0% 100%, ${perc}% 100%, ${perc}% 0%)`;
+            })
+        }
+        // end of copying
+
+        n_starsRating();
+    </script>
+</body>
+
+</html>
