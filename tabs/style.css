@@ -6,13 +6,18 @@
 .n__opened:not(#fakeId) {
 	display: block;
 }
-.n__tabs .active-tab {
-    background-color: red;
+.n__tabs div.tab-item {
+	display: none;
+}
+.n__tabs button.tab-item {
+    transition: .2s ease-in-out;
 }
 
 /* end of copying */
 
-
+.n__tabs .active-tab {
+    background-color: red;
+}
 .content>div{
     display: none;
 }
