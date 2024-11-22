@@ -1,20 +1,25 @@
-.n .backdrop {
+.n-modal {
+	width: 100vw;
+	height: 100vh;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	left: 0;
+	display: none;
+}	
+.n-modal__backdrop {
 	height: 100%;
+	width: 100%;
 	background-color: rgba(0,0,0,0.4);
 	z-index: 100;
-	display: none;
 }
-.n .backdrop + div {
-    display: none;
-    position: fixed;
+
+.n-modal__content {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 101;
 }
-.n .opened:not(#fakeId) {
+.n-modal__opened {
 	display: block;
 }

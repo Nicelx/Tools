@@ -1,43 +1,57 @@
+// v 1.0.0
+
 class Modal {
     constructor(option) {
+        if (!option.modal || !option.triggers) {
+            console.error('modal and triggers fields are required');
+        }
+
         this.modal = document.querySelector(option.modal);
-        this.backdrop = document.querySelector(option.backdrop);
         this.triggers = document.querySelectorAll(option.triggers);
-        this.closers = document.querySelectorAll(option.closers);
+        this.backdrop = this.modal.querySelector('.n-modal__backdrop');
+        this.closers = option.closers;
         this.init();
     }
     isOpen = false;
 
     init() {
         this.triggers.forEach(trigger => {
-            trigger.addEventListener('click', () => {
-                console.log('trigger')
+            trigger.addEventListener('click', (e) => {
                 this.open();
             })
         });
-        this.closers.forEach(closer => {
-            closer.addEventListener('click', () => {
-                this.close();
+        if (this.closers) {
+            this.closers.forEach(closer => {
+                const closerElement = document.querySelector(closer);
+
+                closerElement.addEventListener('click', () => {
+                    this.close();
+                })
             })
-        })
+        }
+
         this.backdrop.addEventListener('click', () => {
             this.close();
         })
     }
     open() {
-        this.modal.classList.add('opened');
-        this.backdrop.classList.add('opened');
+        this.modal.classList.add('n-modal__opened');
+        if (this.dynamic) {
+            console.log('dynamic', this.modal.firstElementChild);
+        } else {
+            console.log('not dynamic');
+        }
     }
     close() {
-        this.modal.classList.remove('opened');
-        this.backdrop.classList.remove('opened');
+        this.modal.classList.remove('n-modal__opened');
     }
 }
 
 
-// example 
-new Modal({
-    modalContainer: '.n',
-    triggers: ['.triggerSelectors'],
-    closers: ['.anycloseSelectors']
-});
+// modal, triggers - required
+// example
+// new Modal({
+//     modal: '.modal selector',
+//     triggers: ['.triggerSelectors'],
+//     closers: ['.anycloseSelectors']
+// });

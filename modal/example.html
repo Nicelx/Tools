@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- example styles -->
+    <style>
+        .content {
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+
+            </nav>
+        </header>
+        <section>
+            <h1>title</h1>
+            <div>
+                <ul>
+                    <li><button>click1</button></li>
+                    <li><button>click2</button></li>
+                    <li><button>click3</button></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="n-modal">
+        <div class="n-modal__backdrop"></div>
+        <div class="n-modal__content">
+            <div class = "content">
+                some content
+                <button class = "content__close">close me</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="trigger">click me</button>
+
+
+    <script src="index.js"></script>
+    <script>
+        // example 
+        new Modal({
+            modal: '.n-modal',
+            triggers: ['.trigger'],
+            closers: ['.content__close']
+        });
+    </script>
+</body>
+
+</html>

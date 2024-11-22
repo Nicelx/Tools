@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /* start copying */
+        .n__navigation>ul {
+            display: flex;
+        }
+        .n__navigation .nav-dropdown {
+            display: none;
+        }
+        .n__navigation .nav-item:hover .nav-dropdown {
+            display: block;
+        }
+        .n__navigation .nav-dropdown {
+            width: 100vw;
+            position: absolute;
+            left: 0;
+            /* styles of backdrop */
+        }
+        @media screen and (max-width: 720px) {
+            .n__navigation>ul {
+                flex-direction: column;
+            }
+            .n__navigation .nav-dropdown {
+                position: static;
+            }
+        }
+        /* end copying */
+
+        ul {
+            gap: 20px;
+            padding: 0;
+        }
+        .nav-dropdown {
+            width: 100vw;
+            position: absolute;
+            left: 0;
+            background-color: red;
+            color: white
+        }
+        .nav-dropdown ul {
+            width: 1280px;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: orange;
+        }
+    </style>
+
+    <nav class="n__navigation">
+        <ul>
+            <li class = "nav-item">
+                <a>link1</a>
+                <div class = "nav-dropdown">
+                    <ul>
+                        <li><a href="">sub-link1</a></li>
+                        <li><a href="">sub-link2</a></li>
+                        <li><a href="">sub-link3</a></li>
+                        <li><a href="">sub-link4</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>link2</li>
+            <li>link3</li>
+            <li>link4</li>
+            <li class = "nav-item">
+                <a>link5</a>
+                <div class = "nav-dropdown">
+                    <ul>
+                        <li><a href="">sub-link1</a></li>
+                        <li><a href="">sub-link2</a></li>
+                        <li><a href="">sub-link3</a></li>
+                        <li><a href="">sub-link4</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>
