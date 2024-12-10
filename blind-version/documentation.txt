@@ -1,0 +1,12 @@
+Steps to install blind version.
+
+1. download malina-blind.css and malina-blind.js
+2. add them to the site
+3. add class "blind__btn" to trigger element 
+4  write setupComponents() function in malina blind with all renderBlock inside
+
+
+
+options
+1. we can write custom styles in the top of malina-blind.css file
+2. 
