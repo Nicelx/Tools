@@ -1,3 +1,5 @@
+// v. 1.01
+
 function setupComponents() {
     const navList = [
         '.nav__item>a', '.nav-dropdown__service a, .nav__item:nth-child(3) .nav-dropdown__item a'
@@ -554,7 +556,31 @@ function renderPanel() {
     bodyTemplate += textNode;
 }
 
+function renderBackground(option) {
+    const { selector, urlArray } = option;
+    let template = `<section class = "blind__section" tabindex="0">`
 
+    if (urlArray) {
+        urlArray.forEach(img => {
+            template += `<img class = "blind__img" src = ${img}>`
+        })
+    }
+    if (selector) {
+        const elements = document.querySelectorAll(selector);
+        elements.forEach(el => {
+            let styles = window.getComputedStyle(el);
+            let urlMatch = styles.backgroundImage.match(/url\(["']?([^"']*)["']?\)/);
+
+            if (urlMatch && urlMatch[1]) {
+                template += `<img class = "blind__img" src = ${urlMatch[1]}>`
+            }
+        })
+    }
+
+    template += `</section>`
+
+    bodyTemplate += template;
+}
 
 function renderNavigation(navList) {
     const navItems = document.querySelectorAll(navList[0])
