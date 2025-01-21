@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- start holidays salusmed-->
+    <div class="accordion">
+        <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
+        <div class="accordion__bottom">
+            <p>
+                <span>с 31.12 по 03.01 – выходной</span>
+                <span>с 04.01 по 06.01 - с 9:00 до 16:00</span>
+                <span>07.01 - выходной</span>
+                <span>08.01 - с 9:00 до 16:00</span>
+                <span>с 09.01 - в обычном режиме</span>
+            </p>
+        </div>
+    </div>
+
+    <style>
+        .accordion {
+            width: 100%;
+            background-color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+
+        }
+
+        .accordion__top {
+            height: 50px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .accordion__bottom {
+
+            height: 0;
+            overflow: hidden;
+            transition: all .4s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-primary);
+            color: white;
+        }
+
+        .accordion__bottom p {
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .show-accordion {
+            height: 160px;
+            padding: 10px;
+        }
+
+        .header {
+            padding-top: 0px !important;
+        }
+
+        @media screen and (max-width: 720px) {
+            .header {
+                height: 58px !important;
+            }
+        }
+    </style>
+    <script>
+        const toggleAccordion = () => {
+            const contentEl = document.querySelector('.accordion__bottom');
+            if (contentEl.classList.contains('show-accordion')) {
+                contentEl.classList.remove('show-accordion')
+            } else {
+                contentEl.classList.add('show-accordion');
+            };
+        }
+
+        const accordionHoliday = document.querySelector('.accordion');
+
+
+        accordionHoliday.addEventListener('click', toggleAccordion)
+    </script>
+
+    <!-- end of holidays -->
+
+
+    <!-- shtokolov -->
+    <!-- <div class="accordion">
+              <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
+              <div class="accordion__bottom">
+            <p>
+                с 28.12 по 09.01 центр работает в обычном режиме. Запись на прием по телефону <a style = "color: white" href="tel:+79107324212">7 (910) 732-42-12</a>
+            </p>
+          </div>
+            </div>
+            <style>
+                .accordion {
+                    width: 100%;
+                    background-color: white;
+                }
+                .accordion__top {
+                    height: 50px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    position: relative;
+                }
+                .accordion__bottom {
+                    border-top: 1px solid black;
+                    height: 0;
+                    overflow: hidden;
+                    transition: all .4s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: black;
+                    color: white;
+                }
+                .show {
+                    height: 80px;
+                    padding: 30px;
+                }
+                .accordion {
+                    margin-top: 66px;
+                }
+                @media screen and (max-width: 780px) {
+                    .accordion {
+                        margin-top: 60px;
+                    }
+                }
+                    .services {
+                        margin-top: -60px;
+                    }
+            </style> -->
+
+    <!-- <script>
+        const toggleAccordion = () => {
+            const contentEl = document.querySelector('.accordion__bottom');
+            if (contentEl.classList.contains('show')) {
+                contentEl.classList.remove('show')
+            } else {
+                contentEl.classList.add('show');
+            };
+        }
+
+        const accordion = document.querySelector('.accordion');
+
+        accordion.addEventListener('click', toggleAccordion)
+    </script> -->
+
+
+    <!-- Octava -->
+
+    <!-- start holidays -->
+    <!-- <div id = "holiday" class="accordion" onclick="toggleAccordion()">
+        <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
+        <div class="accordion__bottom" id = "accordion__bottom">
+            <p>
+                <span>с 30.12 по 02.01 – выходной</span>
+                <span>с 03.01 по 06.01 – в обычном режиме</span>
+                <span>07.01 – выходной</span>
+                <span>с 08.01 - в обычном режиме</span>
+            </p>
+        </div>
+    </div>
+
+    <style>
+        .accordion {
+            width: 100%;
+            background-color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+
+        }
+
+        .accordion__top {
+            height: 50px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .accordion__bottom {
+
+            height: 0;
+            overflow: hidden;
+            transition: all .4s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            color: white;
+        }
+
+        .accordion__bottom p {
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .show-accordion {
+            height: 140px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+		function toggleAccordion()  {
+			const contentEl = document.querySelector('.accordion__bottom');
+			if (contentEl.classList.contains('show-accordion')) {
+				contentEl.classList.remove('show-accordion')
+			} else {
+				contentEl.classList.add('show-accordion');
+			};
+        }
+    </script> -->
+    <!-- end of holidays -->
+
+    <!-- Fieldmaster -->
+
+    <!-- <div class="accordion">
+        <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
+        <div class="accordion__bottom">
+            <p>
+                <span>28.12 – в обычном режиме с 11:00 до 22:00</span>
+                <span>С 30.12 по 09.01 – выходной</span>
+                <span>10.01 - в обычном режиме с 11:00 до 22:00</span>
+              
+            </p>
+        </div>
+    </div>
+
+    <style>
+        .accordion {
+            width: 100%;
+            background-color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+
+        }
+
+        .accordion__top {
+            height: 50px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .accordion__bottom {
+
+            height: 0;
+            overflow: hidden;
+            transition: all .4s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-primary);
+            color: white;
+        }
+
+        .accordion__bottom p {
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .show-accordion {
+            height: 80px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        const toggleAccordion = () => {
+            const contentEl = document.querySelector('.accordion__bottom');
+            if (contentEl.classList.contains('show-accordion')) {
+                contentEl.classList.remove('show-accordion')
+            } else {
+                contentEl.classList.add('show-accordion');
+            };
+        }
+
+        const accordionHoliday = document.querySelector('.accordion');
+
+
+        accordionHoliday.addEventListener('click', toggleAccordion)
+    </script> -->
+</body>
+
+</html>

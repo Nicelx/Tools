@@ -1,0 +1,7 @@
+/* Accordion v0 */
+
+.n-accordion__panel {
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    height: 0;
+}
