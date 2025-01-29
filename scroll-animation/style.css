@@ -1,0 +1,15 @@
+.hide {
+    transform: scale(80%);
+    filter: blur(4px);
+    transition: all 1.2s;
+    opacity: 0;
+}
+/* .hide--fixed {
+    transform: scale(100%);
+    transition: all 2s;
+} */
+.show {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+}
