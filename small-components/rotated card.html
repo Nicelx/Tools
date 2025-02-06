@@ -1,0 +1,68 @@
+<!-- v0 testing -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /* start copy */
+        .n-rotate__card {
+            perspective: 1000px;
+        }
+
+        .n-rotate__inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform .6s;
+            transform-style: preserve-3d;
+        }
+
+        .n-rotate__front,
+        .n-rotate__back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+
+        .n-rotate__back {
+            transform: rotateY(180deg);
+        }
+
+        .n-rotate__inner.n-rotate__flipped {
+            transform: rotateY(180deg);
+        }
+        /* end copy */
+    </style>
+
+    <!-- usage example -->
+    <div class="n-rotate__card" onclick="onNRotate(this)">
+        <div class="n-rotate__inner">
+            <div class="n-rotate__front">
+                <h2>Лицевая сторона</h2>
+            </div>
+            <div class="n-rotate__back">
+                <h2>Обратная сторона</h2>
+            </div>
+        </div>
+    </div>
+    <!-- end example -->
+
+    <script>
+        // start copy
+        function onNRotate(card) {
+            const innerCard = card.querySelector('.n-rotate__inner');
+            innerCard.classList.toggle('n-rotate__flipped');
+        }
+        // end copy
+    </script>
+
+</body>
+
+</html>
