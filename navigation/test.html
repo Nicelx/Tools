@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Выпадающее меню</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu>li {
+            position: relative;
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .menu li:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background: #444;
+            margin-top: 5px;
+            padding: 0;
+            list-style: none;
+            transition: opacity 0.3s ease;
+            /* Плавный переход */
+            opacity: 0;
+            /* Начальное состояние */
+        }
+
+        .dropdown li {
+            padding: 10px;
+        }
+
+        .dropdown li:hover {
+            background: #555;
+        }
+
+        /* Плавная анимация */
+        .menu>li:hover .dropdown {
+            display: block;
+            opacity: 1;
+            /* Устанавливаем в 1 (видимо) при наведении */
+        }
+    </style>
+
+
+    <nav>
+        <ul class="menu">
+            <li>Главная</li>
+            <li>
+                Услуги
+                <ul class="dropdown">
+                    <li>Услуга 1</li>
+                    <li>Услуга 2</li>
+                    <li>Услуга 3</li>
+                </ul>
+            </li>
+            <li>Контакты</li>
+        </ul>
+    </nav>
+    <script>
+        const menuItems = document.querySelectorAll('.menu > li');
+
+        menuItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                const dropdown = item.querySelector('.dropdown');
+                if (dropdown) {
+                    dropdown.style.opacity = '1'; // Показать подменю
+                    dropdown.style.transition = 'opacity 0.3s ease'; // Добавить плавный эффект
+                }
+            });
+
+            item.addEventListener('mouseleave', () => {
+                const dropdown = item.querySelector('.dropdown');
+                if (dropdown) {
+                    dropdown.style.opacity = '0'; // Скрыть подменю
+                    setTimeout(() => {
+                        dropdown.style.display = 'none'; // Устанавливаем display: none после анимации
+                    }, 300); // Задержка аналогична продолжительности анимации
+                }
+            });
+
+            item.addEventListener('mouseenter', () => {
+                const dropdown = item.querySelector('.dropdown');
+                if (dropdown) {
+                    dropdown.style.display = 'block'; // Убедитесь, что подменю отображается
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

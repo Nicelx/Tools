@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Подключаем CSS для Splide -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Splide/3.6.12/css/splide.min.css"> -->
+    <!-- Подключаем JS для Splide -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Splide/3.6.12/js/splide.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+
+    <style>
+        .splide__slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: #fff;
+            background-color: #007bff;
+            height: 300px;
+            /* Высота слайда */
+        }
+
+        /* Пример эффекта при переходе */
+        .splide__slide {
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .is-active {
+            transform: scale(1.05);
+            /* Увеличение активного слайда */
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="my-slider" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">Слайд 1</li>
+                <li class="splide__slide">Слайд 2</li>
+                <li class="splide__slide">Слайд 3</li>
+                <li class="splide__slide">Слайд 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('#my-slider', {
+                type: 'fade',        // Тип перехода для эффекта затухания
+                heightRatio: 0.5,           // Высота слайдера относительно ширины
+                pagination: false,         // Отключаем пагинацию
+                arrows: true,          // Включаем стрелки навигации
+                autoplay: true,          // Включаем автоматическую прокрутку
+                interval: 2000,          // Интервал смены слайдов
+                speed: 800,           // Время смены слайда
+                pauseOnHover: true,         // Приостановка на паузе при наведении
+            });
+
+            splide.mount();
+        });
+    </script>
+
+</body>
+
+</html>
