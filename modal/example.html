@@ -35,7 +35,14 @@
             </div>
         </section>
     </main>
-    <div class="n-modal">
+    <!-- example of modal -->
+
+    <!--  
+        1) add n-modal to container
+        2) add n-modal__backdrop and n-modal__content divs
+        3) put your custom content into n-modal__content div
+     -->
+    <div class="n-modal"> 
         <div class="n-modal__backdrop"></div>
         <div class="n-modal__content">
             <div class = "content">
@@ -51,9 +58,13 @@
     <script src="index.js"></script>
     <script>
         // example 
-        new Modal({
-            modal: '.n-modal',
-            triggers: ['.trigger'],
+        // write selector here to pick .n-modal element
+        // specify array of selectors that trigger modal opening
+        // specify array of selectors that close modal
+        
+        new NModal({
+            modal: '.n-modal', 
+            triggers: ['.trigger'], 
             closers: ['.content__close']
         });
     </script>

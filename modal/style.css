@@ -1,3 +1,6 @@
+/* start copying */
+
+/* #region n-modal */
 .n-modal {
 	width: 100vw;
 	height: 100vh;
@@ -23,3 +26,6 @@
 .n-modal__opened {
 	display: block;
 }
+/* #endregion */
+
+/* end copying */

@@ -1,6 +1,5 @@
-// v 1.0
-
-class Modal {
+class NModal {
+    // v 1.1
     constructor(option) {
         if (!option.modal || !option.triggers) {
             console.error('modal and triggers fields are required');
@@ -46,12 +45,3 @@ class Modal {
         this.modal.classList.remove('n-modal__opened');
     }
 }
-
-
-// modal, triggers - required
-// example
-// new Modal({
-//     modal: '.modal selector',
-//     triggers: ['.triggerSelectors'],
-//     closers: ['.anycloseSelectors']
-// });
