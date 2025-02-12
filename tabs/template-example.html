@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 1)add styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="n-tabs">
+        <!-- 2)Add n-tabs to containers -->
+        <div class="n-tabs__triggers">
+            <!-- 2.1) Add tab-item to buttons and showed content -->
+            <button class="n-tabs__item">1</button>
+            <button class="n-tabs__item">2</button>
+            <button class="n-tabs__item">3</button>
+            <button class="n-tabs__item">4</button>
+            <button class="n-tabs__item">5</button>
+        </div>
+        <div class="n-tabs__content">
+            <!-- 2.2) Add n-tabs__item to buttons and showed content -->
+            <div class="n-tabs__item">111111111111</div>
+            <div class="n-tabs__item">222222222222</div>
+            <div class="n-tabs__item">333333333333</div>
+            <div class="n-tabs__item">444444444444</div>
+            <div class="n-tabs__item">555555555555</div>
+        </div>
+    </div>
+
+    <!-- 3) add script -->
+    <script src="index.js"></script>
+
+    <!-- 4) init NTabs instance  -->
+    <script>
+        new NTabs({
+            selector: '.n-tabs',
+        })
+    </script>
+</body>
+
+</html>

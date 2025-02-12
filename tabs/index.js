@@ -1,7 +1,13 @@
-class Tabs {
+class NTabs {
+    // v 0.1 testing
     constructor(option) {
-        this.triggers = document.querySelectorAll(option.triggersList + ' .tab-item')
-        this.contentList = document.querySelectorAll(option.contentList + ' .tab-item')
+        if (!option.selector) {
+            console.error('NTabs selector is missing');
+            return;   
+        }
+        
+        this.triggers = document.querySelectorAll(option.selector + ' .n-tabs__triggers .n-tabs__item')
+        this.contentList = document.querySelectorAll(option.selector + ' .n-tabs__content .n-tabs__item')
 
         if (this.triggers && this.contentList) {
             this.init();
@@ -12,37 +18,29 @@ class Tabs {
     contentList = [];
 
     init() {
-        this.triggers[0].classList.add('active-tab');
-        this.contentList[0].classList.add('n__opened')
+        this.triggers[0].classList.add('n-tabs__active');
+        this.contentList[0].classList.add('n-tabs__opened')
        
         this.triggers.forEach((item, index) => {
             if (index == 0) {
-                item.classList.add('n__opened');
+                item.classList.add('n-tabs__opened');
             }
             item.addEventListener('click', (e) => {
                 this.removeOpened();
-                e.target.classList.add('active-tab');
                 this.selectItem(index);
             });
         })
     }
     removeOpened() {
-        console.log('removeOpened');
         this.contentList.forEach(item => {
-            item.classList.remove('n__opened');
+            item.classList.remove('n-tabs__opened');
         })
         this.triggers.forEach(item => {
-            item.classList.remove('active-tab');
+            item.classList.remove('n-tabs__active');
         })
     }
     selectItem(index) {
-        this.contentList[index].classList.add('n__opened');
+        this.triggers[index].classList.add('n-tabs__active');
+        this.contentList[index].classList.add('n-tabs__opened');
     }
 }
-
-// usage!!!!!!!!! 
-
-new Tabs({
-    triggersList: '.triggers',
-    contentList: '.content',
-} )
