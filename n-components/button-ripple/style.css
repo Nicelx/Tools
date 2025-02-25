@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 180px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* start copying */
+.ripple {
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+    --ripple-top: 0px;
+    --ripple-left: 0px;
+    --ripple-animation: none;
+}
+
+.ripple::after {
+    content: "";
+    transform: scale(0);
+    position: absolute;
+    border-radius: 50%;
+    top: var(--ripple-top);
+    left: var(--ripple-left);
+    width: 2px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    animation: var(--ripple-animation);
+}
+
+.ripple--animate::after {
+    animation: ripple 500ms ease-in-out;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(600);
+        opacity: 0;
+    }
+}
+/* end copying */
