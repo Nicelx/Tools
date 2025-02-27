@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- in developing -->
+
+    <video class="speaker__video">
+        <source src="video-background.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+
+    </video>
+    <img class="speaker__play" src="assets/play.svg" alt="">
+    <div class="speaker__range">
+        <div class="n-video-controls__range">
+            <div class="speaker__time">
+                <span class="speaker__time-1">0:00</span> из <span class="speaker__time-2">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            new NVideoControls({
+                playSelector: '.speaker__play',
+                videoSelector: '.speaker__video',
+                progressSelector: '.n-video-controls__range',
+            });
+        })
+    </script>
+</body>
+
+</html>
