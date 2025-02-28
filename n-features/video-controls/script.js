@@ -1,4 +1,11 @@
-// v.000 developing
+// v0 developing
+// to DO:
+/**
+ * 1. finish developing go to beta stage, clean
+ * 2. feature must contain play, pause, progress bar, hover and no hover controls, current time and duration methods.
+ * 3. general clean code after.   
+ */
+
 
 class NVideoControls {
     constructor(option) {
@@ -8,6 +15,7 @@ class NVideoControls {
             this.isCustomProgress = true;
             this.progressEl = document.querySelector(option.progressSelector);
         }
+        this.initPauseOption(option.pauseSelector);
 
         if (!this.playEl || !this.videoEl) return;
 
@@ -19,8 +27,10 @@ class NVideoControls {
     playEl;
     videoEl;
     progressEl;
+    pauseEl;
 
     init() {
+        console.log('init')
         this.videoEl.addEventListener('click', () => {
             if (this.isPlay) {
                 this.pause();
@@ -33,6 +43,23 @@ class NVideoControls {
         })
         this.initProgress();
     }
+
+    initPauseOption(selector) {
+        if (!selector) return;
+
+        this.pauseEl = document.querySelector(selector);
+        this.pauseEl.addEventListener('click', () => {
+            if (this.isPlay) {
+                this.isPlay = false;
+                this.videoEl.play();
+                this.playEl.classList.add('n-hidden');
+            } else {
+                this.videoEl.pause()
+                this.isPlay = true;
+                this.playEl.classList.remove('n-hidden');
+            }
+        })
+    } 
     initProgress() {
         if (!this.isCustomProgress) return;
 
@@ -62,14 +89,7 @@ class NVideoControls {
             this.progressEl.classList.add('n-hidden');
         })
         this.progressEl.addEventListener('click', (e) => {
-            console.log('offsetX', typeof e.offsetX);
-            console.log('offsetWidth', typeof e.target.offsetWidth);
-            // console.log('duration', typeof duration, duration);
-
-            
             const currentTime = e.offsetX / e.target.offsetWidth * this.videoEl.duration;
-            console.log(currentTime);
-            // console.log('currentTime ', currentTime )
             this.videoEl.currentTime = currentTime;
         })
     }
@@ -93,5 +113,3 @@ class NVideoControls {
         this.playEl.classList.remove('n-hidden');
     }
 }
-
-
