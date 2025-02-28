@@ -17,35 +17,39 @@ body {
 }
 
 /* start copying */
-.ripple {
+/* we can change n-riiple-scale, n-ripple-duration, n-ripple-bg */
+
+.n-ripple {
+    --n-ripple-scale: 200;
+    --n-ripple-duration : 600ms;
+    --n-ripple-bg: rgba(255, 255, 255,0.5);
     position: relative;
     overflow: hidden;
-    z-index: 1000;
-    --ripple-top: 0px;
-    --ripple-left: 0px;
-    --ripple-animation: none;
+    --n-ripple-top: 0px;
+    --n-ripple-left: 0px;
+    --n-ripple-animation: none;
 }
 
-.ripple::after {
+.n-ripple::after {
     content: "";
     transform: scale(0);
     position: absolute;
     border-radius: 50%;
-    top: var(--ripple-top);
-    left: var(--ripple-left);
+    top: var(--n-ripple-top);
+    left: var(--n-ripple-left);
     width: 2px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.8);
-    animation: var(--ripple-animation);
+    background-color: var(--n-ripple-bg);
+    animation: var(--n-ripple-animation);
 }
 
-.ripple--animate::after {
-    animation: ripple 500ms ease-in-out;
+.n-ripple--animate::after {
+    animation: n-ripple var(--n-ripple-duration) ease-in-out;
 }
 
-@keyframes ripple {
+@keyframes n-ripple {
     to {
-        transform: scale(600);
+        transform: scale(var(--n-ripple-scale));
         opacity: 0;
     }
 }

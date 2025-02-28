@@ -1,27 +1,27 @@
-// n-ripple v.0 demo
+// n-ripple v0.1 test
 
-const btn = document.querySelector('.ripple');
-btn.addEventListener('click', function (e) {
-    const offsetX = e.offsetX;
-    const offsetY = e.offsetY;
+class NRipple {
+    constructor() {
+        this.init();
+    }
 
-    this.style.setProperty('--ripple-top', `${offsetY}px`);
-    this.style.setProperty('--ripple-left', `${offsetX}px`);
-    
-    this.style.setProperty('--ripple-animation', 'none');
-    void this.offsetWidth; // Сбрасываем анимацию
-    this.style.setProperty('--ripple-animation', 'ripple 500ms ease-in-out');
-})
+    init() {
+        this.elements = document.querySelectorAll('.n-ripple');
+        this.elements.forEach(el => {
+            el.addEventListener('click', this._handleEvent);
+            el.addEventListener('mouseenter', this._handleEvent);
+        })
+    }
 
+    _handleEvent(e) {
+        const offsetX = e.offsetX;
+        const offsetY = e.offsetY;
 
-btn.addEventListener('mouseenter', function(e) {
-    const offsetX = e.offsetX;
-    const offsetY = e.offsetY;
+        this.style.setProperty('--n-ripple-top', `${offsetY}px`);
+        this.style.setProperty('--n-ripple-left', `${offsetX}px`);
 
-    this.style.setProperty('--ripple-top', `${offsetY}px`);
-    this.style.setProperty('--ripple-left', `${offsetX}px`);
-    
-    this.style.setProperty('--ripple-animation', 'none');
-    void this.offsetWidth; // Сбрасываем анимацию
-    this.style.setProperty('--ripple-animation', 'ripple 500ms ease-in-out');
-})
+        this.style.setProperty('--n-ripple-animation', 'none');
+        void this.offsetWidth; // Сбрасываем анимацию
+        this.style.setProperty('--n-ripple-animation', 'n-ripple var(--n-ripple-duration) ease-in-out');
+    }
+}
