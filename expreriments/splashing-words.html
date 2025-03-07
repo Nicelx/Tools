@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #1a1a1a;
+            cursor: pointer;
+        }
+        
+        .click-effect {
+            position: absolute;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            pointer-events: none;
+            white-space: nowrap;
+            transition: opacity 0.5s;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const words = ['CLICK!', '+1', 'POP!', 'BOOM!', 'NICE!', 'WOW!', 'COOL!', 'YEAH!'];
+        
+        document.body.addEventListener('click', (e) => {
+            const particles = 8;
+            const baseSpeed = 3;
+            
+            for(let i = 0; i < particles; i++) {
+                createParticle(e.clientX, e.clientY);
+            }
+            
+            function createParticle(x, y) {
+                const particle = document.createElement('div');
+                particle.className = 'click-effect';
+                particle.textContent = words[Math.floor(Math.random() * words.length)];
+                
+                // Начальная позиция
+                particle.style.left = x + 'px';
+                particle.style.top = y + 'px';
+                document.body.appendChild(particle);
+                
+                // Параметры анимации
+                const angle = (Math.PI * 2) * Math.random();
+                const speed = baseSpeed + Math.random() * 2;
+                const rotation = (Math.random() - 0.5) * 360;
+                let currentX = 0;
+                let currentY = 0;
+                let opacity = 1;
+                
+                // Анимация
+                function animate() {
+                    // Обновление позиции
+                    currentX += Math.cos(angle) * speed;
+                    currentY += Math.sin(angle) * speed;
+                    opacity -= 0.02;
+                    
+                    // Применение трансформаций
+                    particle.style.transform = `
+                        translate(${currentX}px, ${currentY}px)
+                        rotate(${rotation}deg)
+                    `;
+                    particle.style.opacity = opacity;
+                    
+                    // Удаление элемента при завершении анимации
+                    if(opacity <= 0) {
+                        particle.remove();
+                        return;
+                    }
+                    
+                    requestAnimationFrame(animate);
+                }
+                
+                requestAnimationFrame(animate);
+            }
+        });
+    </script>
+</body>
+</html>
