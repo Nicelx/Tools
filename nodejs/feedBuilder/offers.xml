@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-03-11 07:48:17">
+  <shop>
+    <name>Косметологический центр «Эра»</name>
+    <company>Косметологический центр «Эра»</company>
+    <url>https://erabeauty.ru/</url>
+    <email>site@erabeauty.ru</email>
+    <picture>https://erabeauty.ru/wp-content/uploads/2021/03/logo.png</picture>
+    <description>Каталог врачей</description>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Врач</category>
+    </categories>
+    <sets>
+      <set id="cosmetolog">
+        <name>cosmetolog</name>
+        <url>https://erabeauty.ru/team/</url>
+      </set>
+    </sets>
+    <offers>
+      <offer id="vrach001" group_id="90000">
+        <name>some name</name>
+        <url>ome url</url>
+        <price from="true">3000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cometolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2021/03/logo.png</picture>
+        <description>Владеет основными методами ультразвуковой диагностики, в том числе УЗИ брюшной полости, забрюшинного пространства, УЗИ предстательной железы, УЗИ щитовидной железы, УЗИ молочных желез и т.д. Специализируется на ультразвуковой диагностики в акушерстве и гинекологии. Обладает технологиями всех видов диагностики по патологии в акушерстве, гинекологии. Подробная информация о враче", //информативное описание врача. Его узкая специализация. SEO-текст из числа отзывов, специальностей и тп не принимается.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Orlov</param>
+        <param name="Имя">Orlov</param>
+        <param name="Отчество">Orlov</param>
+        <param name="Начало карьеры">2005-01-01</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Эра</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">some phone number +7 (900) 599 59 59</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

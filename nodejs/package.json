@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parser": "node parser/parseUrls.js"
+    "parser": "node parser/parseUrls.js",
+    "feedbuilder": "node feedBuilder/index2.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "axios": "^1.8.2",
     "cheerio": "^1.0.0",
     "exceljs": "^4.4.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "xmlbuilder2": "^3.1.1"
   }
 }
