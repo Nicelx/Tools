@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "parser": "node parser/parseUrls.js",
-    "feedbuilder": "node feedBuilder/index2.js"
+    "feedbuilder": "node feedBuilder/index.js"
   },
   "keywords": [],
   "author": "",

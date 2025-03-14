@@ -15,32 +15,393 @@
     </categories>
     <sets>
       <set id="cosmetolog">
-        <name>cosmetolog</name>
+        <name>Косметолог</name>
         <url>https://erabeauty.ru/team/</url>
       </set>
     </sets>
     <offers>
-      <offer id="vrach001" group_id="90000">
-        <name>some name</name>
-        <url>ome url</url>
-        <price from="true">3000</price>
+      <offer id="vrach100" group_id="90000">
+        <name>Стрыгина Ольга Евгеньевна</name>
+        <url>https://erabeauty.ru/team/strigina_olga_evgenevna/</url>
+        <price from="true">0</price>
         <currencyId>RUR</currencyId>
         <sales_notes>Первичный прием</sales_notes>
-        <set-ids>cometolog</set-ids>
-        <picture>https://erabeauty.ru/wp-content/uploads/2021/03/logo.png</picture>
-        <description>Владеет основными методами ультразвуковой диагностики, в том числе УЗИ брюшной полости, забрюшинного пространства, УЗИ предстательной железы, УЗИ щитовидной железы, УЗИ молочных желез и т.д. Специализируется на ультразвуковой диагностики в акушерстве и гинекологии. Обладает технологиями всех видов диагностики по патологии в акушерстве, гинекологии. Подробная информация о враче", //информативное описание врача. Его узкая специализация. SEO-текст из числа отзывов, специальностей и тп не принимается.</description>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Стрыгина-Ольга.png</picture>
+        <description>Главный врач. Дерматовенеролог, врач-косметолог. Ассистент кафедры дерматовенералогии ВГМА им. Н.Н. Бурденко, официальный тренер компании "Новокутан", член экспертного совета "Академии Эстетики".</description>
         <categoryId>1</categoryId>
-        <param name="Фамилия">Orlov</param>
-        <param name="Имя">Orlov</param>
-        <param name="Отчество">Orlov</param>
-        <param name="Начало карьеры">2005-01-01</param>
+        <param name="Фамилия">Стрыгина</param>
+        <param name="Имя">Ольга</param>
+        <param name="Отчество">Евгеньевна</param>
         <param name="Город">г. Воронеж</param>
         <param name="Взрослый врач">true</param>
         <param name="Детский врач">false</param>
         <param name="Город клиники">г. Воронеж</param>
-        <param name="Название клиники">Эра</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
         <param name="Возможность записи">true</param>
-        <param name="Телефон для записи">some phone number +7 (900) 599 59 59</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+        <param name="Образование - 1" unit="Организация">ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 1" unit="Дата">2005</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Лечебное дело</param>
+        <param name="Образование - 2" unit="Организация">
+ГОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 2" unit="Дата">2006</param>
+        <param name="Образование - 2" unit="Название">Базовое образование</param>
+        <param name="Образование - 2" unit="Специализация">Неврология</param>
+        <param name="Образование - 3" unit="Организация">
+ГБОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 3" unit="Дата">2006</param>
+        <param name="Образование - 3" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 3" unit="Специализация">сертификат специалиста по неврологии</param>
+        <param name="Образование - 4" unit="Организация">
+ГБОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 4" unit="Дата">2011</param>
+        <param name="Образование - 4" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 4" unit="Специализация">сертификат специалиста по неврологии</param>
+        <param name="Образование - 5" unit="Организация">
+ГБОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 5" unit="Дата">2011</param>
+        <param name="Образование - 5" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 5" unit="Специализация">Актуальные вопросы неврологии</param>
+        <param name="Образование - 6" unit="Организация">
+ ГБОУ ВПО «Российский национальный исследовательский медицинский университет им. Н.И. Пирогова»</param>
+        <param name="Образование - 6" unit="Дата">2013</param>
+        <param name="Образование - 6" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 6" unit="Специализация">Косметология</param>
+        <param name="Образование - 7" unit="Организация">
+ГБОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 7" unit="Дата">2013</param>
+        <param name="Образование - 7" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 7" unit="Специализация">Дерматовенерология</param>
+        <param name="Образование - 8" unit="Организация">
+ГБОУ ВПО «ВГМА им. Н.Н. Бурденко»</param>
+        <param name="Образование - 8" unit="Дата">2013</param>
+        <param name="Образование - 8" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 8" unit="Специализация">сертификат специалиста по дерматовенерологии</param>
+        <param name="Образование - 9" unit="Организация">
+ГБОУ ВПО РНИМУ им. Н.И. Пирогова</param>
+        <param name="Образование - 9" unit="Дата">2013</param>
+        <param name="Образование - 9" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 9" unit="Специализация">сертификат специалиста по косметологии</param>
+        <param name="Образование - 10" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 10" unit="Дата">2015</param>
+        <param name="Образование - 10" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 10" unit="Специализация">сертификат специалиста по специальности «Терапия»</param>
+        <param name="Образование - 11" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 11" unit="Дата">2016</param>
+        <param name="Образование - 11" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 11" unit="Специализация">Актуальные вопросы неврологии</param>
+        <param name="Образование - 12" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 12" unit="Дата">2018</param>
+        <param name="Образование - 12" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 12" unit="Специализация">Организация здравоохранения и общественное здоровье</param>
+        <param name="Образование - 13" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 13" unit="Дата">2018</param>
+        <param name="Образование - 13" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 13" unit="Специализация"> Организация здравоохранения и общественное здоровье</param>
+        <param name="Образование - 14" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 14" unit="Дата">2018</param>
+        <param name="Образование - 14" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 14" unit="Специализация">Актуальные вопросы дерматовенерологии</param>
+        <param name="Образование - 15" unit="Организация">
+ГОУ ВПО «ВГМУ им. Н.Н. Бурденко»</param>
+        <param name="Образование - 15" unit="Дата">2018</param>
+        <param name="Образование - 15" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 15" unit="Специализация"> Актуальные вопросы косметологии</param>
+        <param name="Образование - 16" unit="Организация">
+ЧОУ ДПО «Региональная академия делового образования»</param>
+        <param name="Образование - 16" unit="Дата">2020</param>
+        <param name="Образование - 16" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 16" unit="Специализация">сертификат специалиста по специальности «Неврология»</param>
+      </offer>
+      <offer id="vrach101" group_id="90001">
+        <name>Попова Екатерина Александровна</name>
+        <url>https://erabeauty.ru/team/popova_ekaterina_aleksandrovna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Попова-Екатерина.png</picture>
+        <description>Врач-косметолог, врач-дерматовенеролог.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Попова</param>
+        <param name="Имя">Екатерина</param>
+        <param name="Отчество">Александровна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+        <param name="Образование - 1" unit="Организация">ГОУ ВПО «ВГМА имени Н.Н. Бурденко»</param>
+        <param name="Образование - 1" unit="Дата">2006</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Лечебное дело</param>
+        <param name="Образование - 2" unit="Организация">
+ГОУ ВПО «ВГМА имени Н.Н. Бурденко»</param>
+        <param name="Образование - 2" unit="Дата">2008</param>
+        <param name="Образование - 2" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 2" unit="Специализация">Терапевтическая косметология</param>
+        <param name="Образование - 3" unit="Организация">
+ГБОУ ВПО «Северо-Западный государственный медицинский университет им. И.И. Мечникова»</param>
+        <param name="Образование - 3" unit="Дата">2013</param>
+        <param name="Образование - 3" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 3" unit="Специализация">Косметология</param>
+        <param name="Образование - 4" unit="Организация">
+ГБОУ ВПО «Северо-Западный государственный медицинский университет им. И.И. Мечникова»</param>
+        <param name="Образование - 4" unit="Дата">2013</param>
+        <param name="Образование - 4" unit="Название"> Повышение квалификации</param>
+        <param name="Образование - 4" unit="Специализация">Косметология</param>
+        <param name="Образование - 5" unit="Организация">
+ЧУД ПО «Институт профессиональных технологий и сервиса ФиЗ»</param>
+        <param name="Образование - 5" unit="Дата">2018</param>
+        <param name="Образование - 5" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 5" unit="Специализация">Косметология</param>
+        <param name="Образование - 6" unit="Организация">
+ООО ИПК ДПО «Специалист»</param>
+        <param name="Образование - 6" unit="Дата">2023</param>
+        <param name="Образование - 6" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 6" unit="Специализация">Косметология</param>
+        <param name="Образование - 7" unit="Организация">
+ООО ИПК ДПО «Специалист»</param>
+        <param name="Образование - 7" unit="Дата">2024</param>
+        <param name="Образование - 7" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 7" unit="Специализация">Дерматовенерология</param>
+      </offer>
+      <offer id="vrach102" group_id="90002">
+        <name>Рягузова Елена Николаевна</name>
+        <url>https://erabeauty.ru/team/ryaguzova_elena_nikolaevna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2021/04/Рягузова-ЕН-682x1024.jpg</picture>
+        <description>Врач-косметолог, ведущий дерматолог.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Рягузова</param>
+        <param name="Имя">Елена</param>
+        <param name="Отчество">Николаевна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+        <param name="Образование - 1" unit="Организация">ВГМА им. Н.Н. Бурденко</param>
+        <param name="Образование - 1" unit="Дата">2001</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Педиатрия</param>
+        <param name="Образование - 2" unit="Организация">
+ВГМА им. Н.Н. Бурденко</param>
+        <param name="Образование - 2" unit="Дата">2004</param>
+        <param name="Образование - 2" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 2" unit="Специализация">Дерматовенералогия</param>
+        <param name="Образование - 3" unit="Организация">
+РУДН</param>
+        <param name="Образование - 3" unit="Дата">2013</param>
+        <param name="Образование - 3" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 3" unit="Специализация">Косметология</param>
+        <param name="Образование - 4" unit="Организация">
+ЧОУ ДПО «Региональная академия делового образования»</param>
+        <param name="Образование - 4" unit="Дата">2020</param>
+        <param name="Образование - 4" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 4" unit="Специализация">Дерматовенералогия</param>
+        <param name="Образование - 5" unit="Организация">
+ООО «Институт повышения квалификации ДПО «Специалист»</param>
+        <param name="Образование - 5" unit="Дата">2023</param>
+        <param name="Образование - 5" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 5" unit="Специализация">Косметология</param>
+        <param name="Образование - 6" unit="Организация">
+ФГБОУ ДПО "Российская медицинская академия непрерывного профессионального образования"</param>
+        <param name="Образование - 6" unit="Дата">2023</param>
+        <param name="Образование - 6" unit="Название">Повышение квалификации</param>
+        <param name="Образование - 6" unit="Специализация">Косметология</param>
+      </offer>
+      <offer id="vrach103" group_id="90003">
+        <name>Звягина Ольга Александровна</name>
+        <url>https://erabeauty.ru/team/zvyagina_olga_aleksandrovna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Звягина-Ольга.png</picture>
+        <description>Врач косметолог, врач дерматовенеролог.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Звягина</param>
+        <param name="Имя">Ольга</param>
+        <param name="Отчество">Александровна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach104" group_id="90004">
+        <name>Николаева Татьяна Игоревна</name>
+        <url>https://erabeauty.ru/team/nikolaeva_tatyana_igorevna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Николаева-Татьяна.png</picture>
+        <description>Врач-косметолог, врач-дерматовенеролог, ведущий врач-трихолог. Сертифицированный тренер компании "Мезфарм".</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Николаева</param>
+        <param name="Имя">Татьяна</param>
+        <param name="Отчество">Игоревна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach105" group_id="90005">
+        <name>Бельских Светлана Сергеевна</name>
+        <url>https://erabeauty.ru/team/belskih_svetlana_sergeevna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2025/02/Бельских-Светлана-Сергеевна-врач-косметолог-2-683x1024.jpg</picture>
+        <description>Врач-косметолог, врач-дерматовенеролог</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Бельских</param>
+        <param name="Имя">Светлана</param>
+        <param name="Отчество">Сергеевна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach106" group_id="90006">
+        <name>Гунькина Дана Фаридовна</name>
+        <url>https://erabeauty.ru/team/gunkina_dana_faridovna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2025/02/Гунькина-Дана-Фаридовна-косметолог-дерматолог-1-683x1024.jpg</picture>
+        <description>Врач-косметолог, врач-дерматовенеролог.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Гунькина</param>
+        <param name="Имя">Дана</param>
+        <param name="Отчество">Фаридовна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach107" group_id="90007">
+        <name>Ковалева Татьяна Александровна</name>
+        <url>https://erabeauty.ru/team/kovaleva_tatyana_aleksandrovna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Ковалева-Татьяна.png</picture>
+        <description>Врач-косметолог, врач-дерматовенеролог</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Ковалева</param>
+        <param name="Имя">Татьяна</param>
+        <param name="Отчество">Александровна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach108" group_id="90008">
+        <name>Лисицына Елена Владимировна</name>
+        <url>https://erabeauty.ru/team/lisicina_elena_vladimirovna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Лисицина-Елена.png</picture>
+        <description>Косметолог-эстетист, массажист, карбокситерапевт</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Лисицына</param>
+        <param name="Имя">Елена</param>
+        <param name="Отчество">Владимировна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach109" group_id="90009">
+        <name>Башкатова Светлана Николаевна</name>
+        <url>https://erabeauty.ru/team/bashkatova-svetalana-nikolaevna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/10/Башкатова-Светлана.png</picture>
+        <description>Специалист по перманентному макияжу и шугарингу</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Башкатова</param>
+        <param name="Имя">Светлана</param>
+        <param name="Отчество">Николаевна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
+        <param name="Идентификатор организации">1069572467</param>
+      </offer>
+      <offer id="vrach110" group_id="90010">
+        <name>Левон Ольга Дмитриевна</name>
+        <url>https://erabeauty.ru/team/levon_olga_dmitrievna/</url>
+        <price from="true">0</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>cosmetolog</set-ids>
+        <picture>https://erabeauty.ru/wp-content/uploads/2024/12/Левон-Ольга.png</picture>
+        <description>Массажист.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Левон</param>
+        <param name="Имя">Ольга</param>
+        <param name="Отчество">Дмитриевна</param>
+        <param name="Город">г. Воронеж</param>
+        <param name="Взрослый врач">true</param>
+        <param name="Детский врач">false</param>
+        <param name="Город клиники">г. Воронеж</param>
+        <param name="Название клиники">Косметологический центр «Эра»</param>
+        <param name="Возможность записи">true</param>
+        <param name="Телефон для записи">8 (473) 211-20-28</param>
         <param name="Идентификатор организации">1069572467</param>
       </offer>
     </offers>

@@ -69,8 +69,6 @@ const func = async () => {
             worksheet.addRow([...result]);
         });
         
-        // Эта строка добавится только ПОСЛЕ обработки всех ссылок
-        worksheet.addRow(['sdfsdf', 'sdfsdf', 'sdfsdf']);
         console.log(results);
         
         // Не забываем сохранить файл
@@ -86,10 +84,4 @@ func().then(() => {
     console.log('Все операции завершены');
 });
 
-
-// links.forEach(async url => {
-//     const parseResult = [];
-//     await parseResult.push(await parsePage(url, selectors));
-//     worksheet.addRow([...parseResult]);
-// })
 workbook.xlsx.writeFile('parser/parsed-data.xlsx');
