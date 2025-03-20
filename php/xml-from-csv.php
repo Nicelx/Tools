@@ -91,7 +91,7 @@ function createXml($goodsArray)
 
         // $category_id = $variant['id'];
         if ($variant === "category") {
-            if ($prodName === "HARMONY CASTLE" || $prodName === "ARKANA") {
+            if ($prodName === "HARMONY CASTLE" || $prodName === "ARKANA" || $prodName === "KARISMA EXO") {
                 $category = $dom->createElement('category', $prodName);
                 $category->setAttribute('id', $prodId);
                 $current_category = $prodName;

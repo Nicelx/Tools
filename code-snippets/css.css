@@ -2,5 +2,7 @@
     /* dont allow items to stretch */
     grid-template-rows: repeat(2, minmax(0,min-content)) 1fr;
 
+    /* 100% width without scroll width */
+    width: calc(100vw - (100vw - 100%));
 }
 
