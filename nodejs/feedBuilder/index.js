@@ -116,6 +116,7 @@ async function convert() {
                 { '@name': 'Фамилия', '#text': family },
                 { '@name': 'Имя', '#text': onlyName },
                 { '@name': 'Отчество', '#text': otchestvo },
+                { '@name': 'Годы опыта', '#text': offersSheet.getCell(`H${rowNumber}`).value },
                 // to do
                 // { '@name': 'Начало карьеры', '#text': '2000-01-01' },
 
@@ -123,6 +124,7 @@ async function convert() {
                 { '@name': 'Взрослый врач', '#text': offersSheet.getCell(`L${rowNumber}`).value },
                 { '@name': 'Детский врач', '#text': offersSheet.getCell(`M${rowNumber}`).value },
                 { '@name': 'Город клиники', '#text': offersSheet.getCell(`N${rowNumber}`).value },
+                { '@name': 'Адрес клиники', '#text': offersSheet.getCell(`P${rowNumber}`).value },
                 { '@name': 'Название клиники', '#text': company },
                 { '@name': 'Возможность записи', '#text': 'true' },
                 { '@name': 'Телефон для записи', '#text': offersSheet.getCell(`O${rowNumber}`).value },
