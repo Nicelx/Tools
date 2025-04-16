@@ -1,6 +1,8 @@
 // import './js/splide.min.js';
 // require './js/splide.min.js';
 
+import './css/css1.css';
+import './css/css2.css';
 
 console.log(Splide);
 // import './js/imask';
