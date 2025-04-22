@@ -1,1 +1,1 @@
-body{background-color:red}@media screen and (max-width:1280px){body{background-color:#fff;font-size:10px}}body{background-color:green}@media screen and (max-width:1280px){body{background-color:#fff;font-size:20px}}
+body{background-color:red}@media screen and (max-width:1280px){body{background-color:#fff}p{font-size:20px}}body{background-color:green}@media screen and (max-width:1280px){body{background-color:#fff;font-size:10px}}

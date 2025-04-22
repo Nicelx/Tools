@@ -44,4 +44,8 @@ foreach($cases_posts as $case) {
 // get img url with image id
 wp_get_attachment_url($id);
 
+
+// define global constant
+define('TEMPLATE_ASSETS', home_url() . '/wp-content/themes/theme-name');
+
 // #endregion

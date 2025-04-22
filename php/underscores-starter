@@ -1,0 +1,23 @@
+1. remove scripts
+2. remove scripts from functions.php
+3. comment custom-header.php, customizer.php in function.php
+4. clean header.php and footer.php
+5. wp_dequeue_style( 'global-styles' ) remove global styles
+
+6 // disable customizer
+add_filter( 'map_meta_cap', function( $caps, $cap ) {
+    if ( 'customize' === $cap ) {
+        return [ 'do_not_allow' ];
+    }
+    return $caps;
+}, 10, 2 );
+
+7. // disable wp-block-library
+function disable_gutenberg_styles()
+{
+	wp_dequeue_style('wp-block-library'); // Основные стили
+	wp_dequeue_style('wp-block-library-theme'); // Тематические стили
+}
+add_action('wp_enqueue_scripts', 'disable_gutenberg_styles', 100);
+
+8. clean styles.css remove rtl style
