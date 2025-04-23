@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="masker.js"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <input type="tel" class="input">
+
+
+    <script>
+
+        class NMask {
+            constructor(selector) {
+                this.init(selector);
+            }
+
+            init(selector) {
+                this.elements = document.querySelectorAll(selector);
+
+                console.log(this.elements);
+            }
+        }
+
+
+        const input = document.querySelector('.input');
+        let val = ""
+
+        input.addEventListener('input', (e) => {
+            value = e.target.value;
+            // console.log(e.target.value = 'huy');
+            e.target.value = phoneReplace(value);
+        })
+    </script>
+
+    <!-- <script>
+        const  phoneReplace = (value) => {
+            return value
+                .replace(/\D+/g, '')
+                .replace(/(\d{0})(\d)/, '+7$1 $2')
+                .replace(/(\d{3})(\d)/, '($1) $2')
+                // .replace(/(\d{4})(\d)/, '$1-$2')
+                // .replace(/(\d{4})-(\d)(\d{4})/, '$1$2-$3')
+                // .replace(/(-\d{4})\d+?$/, '$1');
+        }
+
+        const input = document.querySelector('.input');
+        console.log(input);
+        input.addEventListener('input', (e) => {
+            value = e.target.value;
+            // console.log(e.target.value = 'huy');
+            e.target.value = phoneReplace(value);
+        })
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .custom-checkbox {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .custom-checkbox input {
+            position: absolute;
+            opacity: 0;
+            height: 0;
+            width: 0;
+        }
+
+        .custom-checkbox input:checked~.custom-checkbox__check::after {
+            background: none;
+        }
+
+        .custom-checkbox__check {
+            display: inline-block;
+            background-color: var(--color-white);
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .custom-checkbox__check::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            background: url('/wp-content/themes/shtokolov/app/assets/svg/tick-small.svg');
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+        }
+    </style>
+
+
+    <label class="custom-checkbox"><input type="checkbox"><span class="custom-checkbox__check"></span><span>Я ознакомлен
+            с Политикой конфиденциальности и даю <a>согласие на обработку персональных данных<a</span>
+    </label>
+</body>
+
+</html>
