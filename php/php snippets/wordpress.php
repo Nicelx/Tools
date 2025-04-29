@@ -6,6 +6,14 @@ $id = 10;
 
 $var = carbon_get_the_post_meta('field'); // get field value in the post 
 $var2 = carbon_get_post_meta($id, 'field-2'); // get field value anywhere
+$themevar = carbon_get_theme_option('theme_reviews');
+
+// repeater example
+Field::make('complex', 'hero_numbers', "Числа")
+    ->add_fields(array(
+        Field::make('text', 'numbers_title', 'Число'),
+        Field::make('text', 'numbers_content', 'Подпись к числу'),
+    ));
 
 // #endregion
 
@@ -21,7 +29,8 @@ $title = $args['title'];
 
 // disable auto-generated pages 
 add_action('template_redirect', 'disable_pages');
-function disable_pages() {
+function disable_pages()
+{
     if (is_author() || is_category()) {
         wp_redirect(home_url(), 301);
         exit;
@@ -37,7 +46,7 @@ $args = array(
 
 $cases_posts = get_posts($args);
 
-foreach($cases_posts as $case) {
+foreach ($cases_posts as $case) {
     echo $case->ID;
 }
 
