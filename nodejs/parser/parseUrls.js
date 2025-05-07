@@ -52,7 +52,10 @@ const links = [
     'https://erabeauty.ru/team/kovaleva_tatyana_aleksandrovna/',
     'https://erabeauty.ru/team/lisicina_elena_vladimirovna/',
     'https://erabeauty.ru/team/bashkatova-svetalana-nikolaevna/',
-    'https://erabeauty.ru/team/levon_olga_dmitrievna/'
+    'https://erabeauty.ru/team/levon_olga_dmitrievna/',
+    'https://erabeauty.ru/team/opanashchuk_marina_nikolaevna/',
+    'https://erabeauty.ru/team/chernyshova_mariya_mihajlovna/',
+    'https://erabeauty.ru/team/serikova_tatyana_leonidovna/',
     // Добавьте другие ссылки
 ];
 

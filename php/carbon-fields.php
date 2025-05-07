@@ -47,6 +47,10 @@ Field::make('select', 'reviews_platform', 'Платформа')
         '/wp-content/uploads/2025/04/zoon.webp' => 'Zoon',
     ));
 
+// img example id - default
+Field::make('image', 'services_banner-img', "Изображение баннера")
+    ->set_value_type('url');
+
 // help example
 Field::make()
     ->set_help_text('конент для 4 серых блока-карточек');
