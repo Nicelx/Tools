@@ -8,6 +8,8 @@
 	top: 0;
 	left: 0;
 	display: none;
+	justify-content: center;
+	align-items: center;
 }	
 .n-modal__backdrop {
 	height: 100%;
@@ -18,14 +20,36 @@
 
 .n-modal__content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 101;
 }
 .n-modal__opened {
-	display: block;
+	display: flex;
+}
+.n-modal__opened .n-modal__content  {
+	animation: n-modal__open 0.3s cubic-bezier(0.5, -0.3, 0.3, 1.5) forwards;
+}
+
+@keyframes n-modal__open {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+	100%  {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 /* #endregion */
 
 /* end copying */
+
+/* @keyframes n-modal__hide {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+} */

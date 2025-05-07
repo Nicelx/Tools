@@ -1,0 +1,4 @@
+- closers make optional. backdrop and special close class - default.
+- experiment with plugins system, try to make core version extensible with plugins
+- default animation to closing
+- auto inject backdrop with js
