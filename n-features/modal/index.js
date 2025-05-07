@@ -1,5 +1,5 @@
 class NModal {
-    // v 1.2
+    // v 1.2.1
     constructor(option) {
         if (!option.modal || !option.triggers) {
             console.error('modal and triggers fields are required');
