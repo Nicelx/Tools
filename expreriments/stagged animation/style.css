@@ -1,0 +1,11 @@
+/* #region n-staged-animation */
+
+@keyframes n-staged-animation {
+    from {}
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* #endregion */

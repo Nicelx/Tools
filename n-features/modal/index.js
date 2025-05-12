@@ -35,11 +35,6 @@ class NModal {
     }
     open() {
         this.modal.classList.add('n-modal__opened');
-        if (this.dynamic) {
-            console.log('dynamic', this.modal.firstElementChild);
-        } else {
-            console.log('not dynamic');
-        }
     }
     close() {
         this.modal.classList.remove('n-modal__opened');

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 1) copy styles -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cards {
+            max-width: 800px;
+            margin-inline: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .item {
+            background-color: #f5f5f5;
+            padding: 20px;
+            opacity: 0;
+        }
+
+        .margin {
+            height: 800px;
+            margin-bottom: 100px;
+            margin-top: 20px;
+            background-color: aqua;
+        }
+    </style>
+
+<!--  -->
+</head>
+
+<body>
+    <div class="margin">sdf</div>
+    <div class="margin">sdf</div>
+
+    <!-- 1)add cards -->
+    <div class="cards">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+    <div class="margin"></div>
+
+    <!-- 2) copy js -->
+    <script src="index.js"></script>
+    <script>
+        // 3) init select item selector
+        new NStaggedAnimation('.item');
+    </script>
+</body>
+
+</html>
