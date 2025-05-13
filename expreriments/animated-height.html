@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shrinkable {
+            width: 200px;
+            margin-inline: auto;
+            background-color: aquamarine;
+
+            /* main feature */
+            transition: all .6s cubic-bezier(0.5, -0.3, 0.3, 1.5);;
+            display: grid;
+            grid-template-rows: 0fr;
+            overflow: hidden;
+        }
+        .shrinkable.open {
+            grid-template-rows: 1fr;
+        }
+        .shrinkable p {
+            min-height: 0;
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <button>click</button>
+    <div class="shrinkable">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, facilis esse! At delectus corporis quos
+            voluptatum! Perspiciatis ipsam ipsum qui id iure illum ipsa amet fuga quae autem, ad corporis, eveniet
+            quaerat aspernatur numquam reprehenderit nesciunt deleniti veritatis at dignissimos quisquam consequuntur!
+            Accusantium, modi vero architecto, alias inventore nisi ratione aliquid exercitationem suscipit autem eaque
+            minus nobis eos iusto, aut dicta. Nemo minus perspiciatis, odit labore saepe maiores. Consequuntur pariatur
+            autem expedita sapiente et omnis esse, nostrum rerum ea suscipit perferendis architecto nam fugiat ullam
+            voluptates error reiciendis assumenda debitis ipsa eum, asperiores, cum voluptatem voluptate! Consequuntur
+            nemo odio facere?</p>
+    </div>
+    <button>click</button>
+    <script>
+        const btn = document.querySelector('button');
+        const shr = document.querySelector('.shrinkable');
+
+        btn.addEventListener('click', () => {
+            shr.classList.toggle('open'); 
+        })
+    </script>
+</body>
+
+</html>
