@@ -1,6 +1,6 @@
-.class  {
+.class {
     /* dont allow items to stretch */
-    grid-template-rows: repeat(2, minmax(0,min-content)) 1fr;
+    grid-template-rows: repeat(2, minmax(0, min-content)) 1fr;
 
     /* 100% width without scroll width */
     width: calc(100vw - (100vw - 100%));
@@ -9,3 +9,10 @@
     --a: cubic-bezier(0.5, -0.3, 0.3, 1.5);
 }
 
+/* autofill with your style */
+.input:autofill {
+    /* bg */
+    box-shadow: 0 0 0 1000px var(--color-white) inset !important;
+    /* color */
+    -webkit-text-fill-color: var(--color-black) !important;
+}

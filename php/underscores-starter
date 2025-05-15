@@ -1,6 +1,6 @@
 1. remove scripts
 2. remove scripts from functions.php
-3. comment custom-header.php, customizer.php in function.php
+3. comment custom-header.php, customizer.php in function.php (??? questionable it disable theme settings)
 4. clean header.php and footer.php
 5. wp_dequeue_style( 'global-styles' ) remove global styles
 

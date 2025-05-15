@@ -1,0 +1,93 @@
+<!-- цель анимировать сетку таким образом, чтобы строка и колонка наведённого элемента увеличивались в размерах -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            /* transition: .25s cubic-bezier(0.5, -0.8, .3, 1.5); */
+            transition: .45s ease-in-out;
+            gap: 20px;
+            margin-inline: auto;
+        }
+        /* .grid:hover {
+            grid-template-columns: 1fr 1fr 1fr;
+        } */
+         /* .grid:hover .item:nth-child(1) {
+            background-color: red !important;
+            grid-column: 1 / -1;
+        } */
+
+        /* .grid:hover {
+            grid-template-columns: 1fr 1.4fr 1fr;
+            grid-template-rows: 1.4fr 1fr 1fr;
+        } */
+
+        .item {
+            background-color: aqua;
+            height: auto;
+            min-height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis itaque quis
+            architecto suscipit libero aspernatur dolor, cumque voluptate beatae.</div>
+    </div>
+
+    <script>
+        const ZOOM = 1.2;
+        const grid = document.querySelector('.grid');
+        const items = document.querySelectorAll('.item');
+        items.forEach((item, index) => {
+            item.addEventListener('mouseenter', () => {
+                const row = Math.floor(index / 3);
+                const col = (index % 3);
+
+                const newColumns = Array(3).fill('1fr');
+                const newRows = Array(3).fill('1fr');
+
+                newColumns[col] = `1.2fr`; // Увеличиваем колонку
+                newRows[row] = `1.2fr`;    // Увеличиваем строку
+
+                // Применяем изменения
+                grid.style.gridTemplateColumns = newColumns.join(' ');
+                grid.style.gridTemplateRows = newRows.join(' ');
+            })
+            grid.addEventListener('mouseleave', () => {
+                // Применяем изменения
+                grid.style.gridTemplateColumns = '1fr 1fr 1fr';
+                grid.style.gridTemplateRows = '1fr 1fr 1fr';
+            })
+        })
+    </script>
+</body>
+
+</html>

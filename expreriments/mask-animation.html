@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <style>
+            .mask-img {
+                width: 100%;
+                /* mask-image: url('https://www.supah.it/dribbble/video-clip-mask.png'); */
+                /* mask-image: url('http://shtoko4b.beget.tech/wp-content/uploads/2025/05/mask.png'); */
+                /* mask-image: url('https://img.icons8.com/?size=256&id=23026&format=png'); */
+                mask-size: cover;
+                /* mask-repeat: no-repeat; */
+                /* mask-size: 1800% 100%; */
+                /* mask-size: 25276px 100%; */
+                mask-size: auto 100%;
+            }
+        </style>
+        mask animation
+        mask url
+        <div style="width: 400px">
+            <!-- <img class="mask-img" src="http://shtoko4b.beget.tech/wp-content/uploads/2025/04/why_hypno.webp" alt=""> -->
+
+        </div>
+        <button class="run-mask">run animation</button>
+
+        <script>
+            const img = document.querySelector('.mask-img');
+
+            const intervalFun = () => {
+                img.style.maskPosition = `-${offset}px 0px`;
+                offset += 400;
+
+                if (offset > 7000) {
+                    clearInterval(intt);
+                    img.style.maskPosition = '100% 0px';
+                    offset = 0;
+                }
+            }
+            let offset = 0;
+            const intt = setInterval(intervalFun, 45);
+           
+
+            const runBtn = document.querySelector('.run-mask');
+            runBtn.addEventListener('click', intervalFun);
+        </script>
+
+    </section>
+</body>
+</html>
