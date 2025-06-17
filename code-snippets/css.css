@@ -7,6 +7,13 @@
 
     /* smooth spring animation */
     --a: cubic-bezier(0.5, -0.3, 0.3, 1.5);
+
+    /* add bold text without displacint letters */
+    text-shadow:
+        0 0 0.7px currentColor,
+        0 0 0.7px currentColor,
+        0 0 0.7px currentColor,
+        0 0 0.7px currentColor;
 }
 
 /* autofill with your style */

@@ -49,7 +49,8 @@ Field::make('select', 'reviews_platform', 'Платформа')
 
 // img example id - default
 Field::make('image', 'services_banner-img', "Изображение баннера")
-    ->set_value_type('url');
+    // set value hardcode valuse into cells that can make problems with migration from domains for example
+    ->set_value_type('url'); 
 
 // help example
 Field::make()
