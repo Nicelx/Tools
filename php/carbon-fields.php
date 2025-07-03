@@ -3,9 +3,14 @@
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;
 
+
+// some id
+$id = 10;
+
 add_action('carbon_fields_register_fields', 'crb_attach_theme_options');
 function crb_attach_theme_options()
 {
+    // Default theme options
     Container::make('theme_options', __('Общая информация', 'crb'))
         ->add_fields(array(
             Field::make('text', 'theme_address', 'Адрес'),
@@ -19,8 +24,6 @@ function crb_attach_theme_options()
         ));
 }
 
-// some id
-$id = 10;
 
 $var = carbon_get_the_post_meta('field'); // get field value in the post 
 $var2 = carbon_get_post_meta($id, 'field-2'); // get field value anywhere
@@ -50,7 +53,9 @@ Field::make('select', 'reviews_platform', 'Платформа')
 // img example id - default
 Field::make('image', 'services_banner-img', "Изображение баннера")
     // set value hardcode valuse into cells that can make problems with migration from domains for example
-    ->set_value_type('url'); 
+    ->set_value_type('url');
+$img_url = wp_get_attachment_url($id);
+$img_alt = get_post_meta($id, '_wp_attachment_image_alt', true);
 
 // help example
 Field::make()
@@ -63,3 +68,31 @@ Container::make('post_meta', 'Home page')
 // where custom post type example
 Container::make('post_meta', 'Контент посадки услуг')
     ->where('post_type', '=', 'services');
+
+
+
+// img helper 
+function getCFimg($selector, $type, $post_id)
+{
+    switch ($type) {
+        case "the":
+            $img_id = carbon_get_the_post_meta($selector);
+            break;
+        case "post":
+            $img_id = carbon_get_post_meta($post_id, $selector);
+            break;
+        case "theme":
+            echo 'theme';
+            break;
+        default:
+            echo 'no case';
+    }
+    $img = [
+        'url' => wp_get_attachment_url($img_id),
+        'alt' => get_post_meta($img_id, '_wp_attachment_image_alt', true)
+    ];
+    return $img;
+}
+// example img helper
+$img = getCFimg('services_img', 'the');
+echo $img['url'];
