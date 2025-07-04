@@ -82,7 +82,7 @@ function getCFimg($selector, $type, $post_id)
             $img_id = carbon_get_post_meta($post_id, $selector);
             break;
         case "theme":
-            echo 'theme';
+            $img_id = carbon_get_theme_option($selector);
             break;
         default:
             echo 'no case';
