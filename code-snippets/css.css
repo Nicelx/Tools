@@ -2,8 +2,10 @@
     /* dont allow items to stretch */
     grid-template-rows: repeat(2, minmax(0, min-content)) 1fr;
 
-    /* 100% width without scroll width */
+    /* 100% width without scroll width, but sometimes it's just like a 100% width */
     width: calc(100vw - (100vw - 100%));
+    /* sometimes auto is the best choice to 100% for width */
+    width: auto;
 
     /* smooth spring animation */
     --a: cubic-bezier(0.5, -0.3, 0.3, 1.5);
