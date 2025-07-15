@@ -2,7 +2,7 @@
 .n-tabs__content .n-tabs__item:not(.n-tabs__opened)  {
     display: none;
 }
-.n-tabs .n-tabs__item {
+.n-tabs__item {
     transition: .2s ease-in-out;
 }
 /* end of copying */
