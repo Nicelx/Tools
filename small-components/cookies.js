@@ -15,6 +15,7 @@
                 color: white;
                 text-align: center;
                 width: 100%;
+                box-sizing: border-box;
             }
 
             .n-cookies__link, a.n-cookies__link:visited, a.n-cookies__link:hover {
