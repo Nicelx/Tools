@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- grab preloader here and modify styles to fit -->
+     
+    <div class="n-preloader">
+      <!-- insert  -->
+      loading
+    </div>
+    <style>
+      .n-preloader {
+        left: 0;
+        top:0;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        z-index: 10000;
+      }
+    </style>
+    <script>
+      var preload = document.querySelector('.n-preloader');
+      window.addEventListener('DOMContentLoaded', () => {
+          preload.style.display = 'none';
+      })
+    </script>
+
+    <!-- end grabbing -->
+
+    <main class="main-content">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+        id.
+      </div>
+      <hr />
+      <div>
+        <input type="text" />
+        <button>bth</button>
+      </div>
+    </main>
+  </body>
+</html>
