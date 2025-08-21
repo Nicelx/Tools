@@ -5,3 +5,6 @@
     overflow: hidden;
     height: 0;
 }
+.n-accordion__item {
+    cursor: pointer;
+}
