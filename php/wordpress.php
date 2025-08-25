@@ -68,5 +68,12 @@ function register_headings_taxonomy() {
 }
 add_action('init', 'register_headings_taxonomy');
 
+// get all taxonomy of headings
+$terms = get_terms(array(
+    'taxonomy' => 'headings', // taxonomy name
+    // 'hide_empty' => false, 
+    'orderby' => 'name', // Сортировать по имени
+    'order' => 'ASC', // По возрастанию
+));
 
 // #endregion
