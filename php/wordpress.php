@@ -2,7 +2,7 @@
 // some id
 $id = 10;
 
-// #region wordpress general
+//#region wordpress general
 
 // get_template_part passing data
 $params = ['title' => 'Хотите с нами сотрудничать?'];
@@ -46,7 +46,8 @@ define('TEMPLATE_ASSETS', home_url() . '/wp-content/themes/theme-name');
 nl2br($title);
 
 // create simple taxonomy 
-function register_headings_taxonomy() {
+function register_headings_taxonomy()
+{
     $args = [
         'label' => 'Рубрики',
         'description' => 'Рекомендованные рубрики',
@@ -76,4 +77,39 @@ $terms = get_terms(array(
     'order' => 'ASC', // По возрастанию
 ));
 
+// #endregion
+
+
+// #region post counter
+
+
+function setPostViews($postID)
+{
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if ($count == '') {
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    } else {
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
+}
+
+function getPostViews($postID)
+{
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if ($count == '') {
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0";
+    }
+    return $count;
+}
+
+
+echo getPostViews($post->ID);
+setPostViews($post->ID);
 // #endregion
