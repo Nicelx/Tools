@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: darkblue;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      .malina__card {
+        perspective: 400px;
+        width: 400px;
+        height: 200px;
+      }
+      .malina__card-wrapper {
+        width: 100%;
+        height: 100%;
+        --color-primary: dark;
+        background-color: #1f1d1d;
+        padding: 17px;
+        border-radius: 2px;
+        transition: all 0.4s ease-in-out;
+        z-index: -1;
+        position: absolute;
+      }
+
+      .malina__card-logo {
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+        position: absolute;
+        width: 50px;
+      }
+      .malina__card:hover .malina__card-logo {
+        transform: scale(2) translate(20px, 20px);
+        opacity: 1;
+      }
+      .malina__card:hover .malina__card-wrapper {
+        background-color: red;
+        /* transform: rotate3d(200deg, 450deg, 100deg); */
+        /* transform: rotate(100deg, 100deg); */
+        transform: perspective(900px) translateY(-5%) rotateX(25deg)
+          translateZ(0);
+      }
+
+      .logo-container {
+        perspective: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="malina__card">
+      <img class="malina__card-logo" src="card-logo.png" alt="" />
+      <div class="malina__card-wrapper">
+        <button class="malina__btn">Хочешь также?</button>
+      </div>
+
+      <!-- <img class="malina__malena" src="malena.webp" alt="" /> -->
+    </div>
+
+    <div class="logo-container">
+      <img src="white-logo-footer.svg" alt="" />
+    </div>
+    <script></script>
+  </body>
+</html>
