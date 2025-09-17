@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-07-24T15:53:22.520Z">
+  <shop>
+    <name>JES</name>
+    <company>JES Медицинская компания</company>
+    <url>https://jesmedexpert.ru/</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="171">KARISMA EXO</category>
+      <category id="82">HARMONY CASTLE</category>
+      <category id="120">ARKANA</category>
+    </categories>
+    <offers>
+      <offer id="3569" available="true">
+        <name>KARISMA Exo Care Набор для ухода за кожей</name>
+        <price>29000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>171</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/69/35/3569/images/467/467.970.png</picture>
+        <description>KARISMA Exo Care, набор для ухода за кожей</description>
+        <url>https://jesmedexpert.ru/karisma-exo-care-nabor-dlya-ukhoda-za-kozhey</url>
+      </offer>
+      <offer id="3567" available="true">
+        <name>Биоактивная антивозрастная сыворотка, 30мл</name>
+        <price>14500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>171</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/67/35/3567/images/465/465.970.png</picture>
+        <description>Bioactive anti-age serum, биоактивная антивозрастная сыворотка, 30мл</description>
+        <url>https://jesmedexpert.ru/karisma-exo-care-bioactive-anti-age-serum</url>
+      </offer>
+      <offer id="3568" available="true">
+        <name>Биоактивный крем, 50мл</name>
+        <price>13500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>171</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/68/35/3568/images/466/466.970.png</picture>
+        <description>Bioactive cream, биоактивный крем, 50мл</description>
+        <url>https://jesmedexpert.ru/karisma-exo-care-bioactive-cream</url>
+      </offer>
+      <offer id="3566" available="true">
+        <name>Скраб с натуральными гранулами, 50мл</name>
+        <price>10000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>171</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/66/35/3566/images/463/463.970.png</picture>
+        <description>Natural Kernels Scrub System, скраб с натуральными гранулами, 50мл&#xD;</description>
+        <url>https://jesmedexpert.ru/karisma-exo-care-natural-kernels-scrub-system</url>
+      </offer>
+      <offer id="2203" available="true">
+        <name>BURRO DI KARITÉ Масло Каритэ (Ши), 50 мл</name>
+        <price>4810</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/03/22/2203/images/290/290.970.jpg</picture>
+        <description>BURRO DI KARITÉ — масло Ши для питания и восстановления поврежденной кожи.</description>
+        <url>https://jesmedexpert.ru/h70267-maslo-karite-shi-burro-di-karite-50-ml</url>
+      </offer>
+      <offer id="2750" available="true">
+        <name>CREMA Солнцезащитная эмульсия MEL SPF50, 50 мл</name>
+        <price>7950</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/50/27/2750/images/400/400.970.png</picture>
+        <description>CREMA MEL 50 солнцезащитная эмульсия с SPF 50 с отбеливающим эффектом.</description>
+        <url>https://jesmedexpert.ru/h70202-uspokaivayushchiy-vosstanavlivayushchiy-solntsezashchitnyy-krem-spf-50-mel-50-tubo-50-ml</url>
+      </offer>
+      <offer id="3564" available="true">
+        <name>INTENSO BOOSTER CORPO HOME-CARE Липомодулятор для тела, 10мл</name>
+        <price>18850</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/64/35/3564/images/443/443.970.jpg</picture>
+        <description>INTENSO BOOSTER CORPO – инновационный липомодулятор, специально разработанный для достижения подтянутого и стройного силуэта.</description>
+        <url>https://jesmedexpert.ru/lipomodulyator-dlya-tela-10ml</url>
+      </offer>
+      <offer id="3565" available="true">
+        <name>INTENSO CREMA CORPO Липолитический крем для тела, 200мл</name>
+        <price>8870</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/65/35/3565/images/444/444.970.jpg</picture>
+        <description>INTENSO CREMA CORPO – крем для дряблой кожи тела</description>
+        <url>https://jesmedexpert.ru/lipoliticheskiy-krem-dlya-tela-200ml</url>
+      </offer>
+      <offer id="897" available="true">
+        <name>MASCHERA VISO ANTIAGING Антивозрастная маска для лица, 250мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/97/08/897/images/409/409.970.png</picture>
+        <description>MASCHERA VISO ANTIAGING – антивозрастная кремовая маска.</description>
+        <url>https://jesmedexpert.ru/h70170-antivozrastnaya-kremovaya-maska-d-litsa-maschera-anti-aging-mask-250ml</url>
+      </offer>
+      <offer id="898" available="true">
+        <name>MASCHERA VISO DECONGESTIONANTE Маска с календулой для чувствительной кожи, 250мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/98/08/898/images/265/265.970.png</picture>
+        <description>MASCHERA VISO DECONGESTIONANTE – успокаивающая кремовая маска для очень чувствительной кожи.</description>
+        <url>https://jesmedexpert.ru/h70105-maska-s-kalenduloy-d-chuvstvitelnoy-kozhi-maschera-alla-calendula-per-delli-delicate-250ml</url>
+      </offer>
+      <offer id="3255" available="true">
+        <name>MELMASK Осветляющая маска-саше, 1шт.</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/55/32/3255/images/410/410.970.png</picture>
+        <description>Целлюлозная маска MEL MASK для увлажнения кожи и мягкого осветления нежелательной пигментации.</description>
+        <url>https://jesmedexpert.ru/h70715-otbelivayushchaya-maska-melmask</url>
+      </offer>
+      <offer id="3558" available="true">
+        <name>SIERO BIOSYS HYDRATE CREMA CORPO Увлажняющий крем для тела, 200мл</name>
+        <price>9060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/58/35/3558/images/437/437.970.jpg</picture>
+        <description>HYDRATE CREMA CORPO – питательный крем для ежедневного ухода за кожей тела.&#xD;&#xD;</description>
+        <url>https://jesmedexpert.ru/uvlazhnyayushchiy-krem-dlya-tela-200ml</url>
+      </offer>
+      <offer id="3554" available="true">
+        <name>SIERO ONCE DAY DECONGESTIONANTE Интенсивный уход для чувствительной кожи, 2мл</name>
+        <price>9060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/54/35/3554/images/433/433.970.jpg</picture>
+        <description>ONCE DAY DECONGESTIONANTE интенсивный уход – ампулы для чувствительной и реактивной кожи.</description>
+        <url>https://jesmedexpert.ru/intensivnyy-ukhod-dlya-chuvstvitelnoy-kozhi-2ml</url>
+      </offer>
+      <offer id="3553" available="true">
+        <name>SIERO ONCE DAY LIFTANTE Интенсивный лифтинг-уход, 2мл</name>
+        <price>9060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/53/35/3553/images/432/432.970.jpg</picture>
+        <description>ONCE DAY LIFTANTE интенсивный уход – ампулы для кожи со сниженным тургором.&#xD; &#xD;</description>
+        <url>https://jesmedexpert.ru/intensivnyy-lifting-ukhod-2ml</url>
+      </offer>
+      <offer id="3555" available="true">
+        <name>SIERO ONCE DAY PURIFICANTE Интенсивный уход для жирной кожи, 2мл</name>
+        <price>8230</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/55/35/3555/images/434/434.970.jpg</picture>
+        <description>ONCE DAY PURIFICANTE интенсивный уход – ампулы для жирной и комбинированной кожи&#xD;&#xD;</description>
+        <url>https://jesmedexpert.ru/intensivnyy-ukhod-dlya-zhirnoy-kozhi-2ml</url>
+      </offer>
+      <offer id="2182" available="true">
+        <name>SIERO RIEQUILIBRANTE Балансирующая сыворотка, 200мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/82/21/2182/images/274/274.970.jpg</picture>
+        <description>SIERO RIEQUILIBRANTE — сыворотка с pH 3,5 для глубокого очищения кожи.</description>
+        <url>https://jesmedexpert.ru/h0003-balansiruyushchaya-syvorotka-siero-riequilibrante-200-ml</url>
+      </offer>
+      <offer id="3528" available="true">
+        <name>Биоревитализирующий пилинг BIOR5, 6мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/28/35/3528/images/300/300.970.png</picture>
+        <description>Биоревитализирующий пилинг BIOR5 – обеспечивает быстрый запуск 5 самых важных процессов в коже.</description>
+        <url>https://jesmedexpert.ru/bioryevitaliziruyushchiy-piling-bior5-6-ml</url>
+      </offer>
+      <offer id="2187" available="true">
+        <name>Восстанавливающий крем с муцином улитки, 50 мл</name>
+        <price>6370</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/87/21/2187/images/408/408.970.jpg</picture>
+        <description>CREMA RIGENERANTE BAVA DI LUMACA — крем с 10% содержанием улиточного муцина.</description>
+        <url>https://jesmedexpert.ru/h70419-vosstanavlivayushchiy-krem-s-mutsinom-ulitki-srema-regenerante-allabava-lumaca-50-ml</url>
+      </offer>
+      <offer id="3563" available="true">
+        <name>Восстанавливающий мусс после загара, 200мл</name>
+        <price>6470</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/63/35/3563/images/442/442.970.jpg</picture>
+        <description>HELIOSYS DOPOSOLE RICOSTITUENTE – мусс для питания и восстановления кожи после пребывания на солнце</description>
+        <url>https://jesmedexpert.ru/vosstanavlivayushchiy-muss-posle-zagara-200ml</url>
+      </offer>
+      <offer id="1114" available="true">
+        <name>Восстанавливающий тоник для лица, 200мл</name>
+        <price>3970</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/14/11/1114/images/273/273.970.jpg</picture>
+        <description>TONICO VISO RIVITALIZZANTE — восстанавливающий и успокаивающий тоник для всех типов кожи.</description>
+        <url>https://jesmedexpert.ru/uspokaivayushchiy-tonik-tonico-visio-rivitalizzante-500ml</url>
+      </offer>
+      <offer id="3552" available="true">
+        <name>Восстанавливающий тоник для лица, 500мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/52/35/3552/images/427/427.970.jpg</picture>
+        <description>TONICO VISO RIVITALIZZANTE — восстанавливающий и успокаивающий тоник для всех типов кожи.</description>
+        <url>https://jesmedexpert.ru/vosstanavlivayushchiy-tonik-dlya-litsa-500ml</url>
+      </offer>
+      <offer id="3557" available="true">
+        <name>Защитный крем для лица, 50мл</name>
+        <price>9060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/57/35/3557/images/436/436.970.jpg</picture>
+        <description>DEFENCE CREMA VISIO – крем для повышения устойчивости кожи к негативному воздействию окружающей среды.&#xD;&#xD;</description>
+        <url>https://jesmedexpert.ru/zashchitnyy-krem-dlya-litsa-50ml</url>
+      </offer>
+      <offer id="3556" available="true">
+        <name>Крем для восстановления микробиома кожи, 50мл</name>
+        <price>9060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/56/35/3556/images/435/435.970.jpg</picture>
+        <description>REPAIR CREMA VISO – крем для восстановления эпидермального барьера кожи и микробиома кожи.&#xD;Полное описание: &#xD;&#xD;</description>
+        <url>https://jesmedexpert.ru/krem-dlya-vosstanovleniya-mikrobioma-kozhi-50ml</url>
+      </offer>
+      <offer id="903" available="true">
+        <name>Крем для жирной кожи, 50 мл</name>
+        <price>4990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/03/09/903/images/272/272.970.jpg</picture>
+        <description>CREMA VISO PURIFICANTE —  для ухода за жирной кожей и кожей, склонной к акне.</description>
+        <url>https://jesmedexpert.ru/h70204-krem-d-zhirnoy-kozhi-crema-viso-purificante-50-ml</url>
+      </offer>
+      <offer id="901" available="true">
+        <name>Крем для лица с гиалуроновой кислотой, 50 мл</name>
+        <price>7390</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/01/09/901/images/269/269.970.png</picture>
+        <description>CREMA VISO RASSODANTE IDRATANTE — увлажняющий, антивозрастной крем с гиалуроновой кислотой.</description>
+        <url>https://jesmedexpert.ru/h70203-ukreplyayushchiy-krem-d-litsa-s-gialuronovoy-kislotoy-crema-viso-rassodante-50-ml</url>
+      </offer>
+      <offer id="2197" available="true">
+        <name>Крем с коэнзимом Q10, 50 мл</name>
+        <price>6370</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/97/21/2197/images/289/289.970.jpg</picture>
+        <description>CREMA ANTIRUGHE AL COENZIMA Q10 — антиоксидантный крем c коэнзимом Q10.</description>
+        <url>https://jesmedexpert.ru/h0008-krem-s-koenzimom-q10-crema-antiughe-ai-coenzima-q10-50-ml</url>
+      </offer>
+      <offer id="902" available="true">
+        <name>Лифтинг-крем для лица с коллагеном, 50 мл</name>
+        <price>8780</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/02/09/902/images/270/270.970.png</picture>
+        <description>CREMA VISO LIFTANTE NUTRIENTE  — укрепляющий крем с коллагеном.</description>
+        <url>https://jesmedexpert.ru/h70201-lifting-krem-d-litsa-s-kollagenom-crema-viso-liftante-50-ml</url>
+      </offer>
+      <offer id="3250" available="true">
+        <name>Лифтинг-пребиотическая сыворотка, 30мл</name>
+        <price>7580</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/50/32/3250/images/429/429.970.jpg</picture>
+        <description>SIERO LIFTANTE – пребиотическая лифтинг-сыворотка обладает направленным действием на устранение признаков хроно- и фотостарения кожи.</description>
+        <url>https://jesmedexpert.ru/h70606-byosys-pelli-normali-syvorotka-dlya-vsekh-tipov-kozhi-30-ml</url>
+      </offer>
+      <offer id="3532" available="true">
+        <name>Нейтрализующая сыворотка, 150мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/32/35/3532/images/398/398.970.jpg</picture>
+        <description>SIERO NEUTRALIZZANTE – сыворотка для блокировки действия кислоты после применения пилинга.</description>
+        <url>https://jesmedexpert.ru/nyeytralizuyushchaya-syvorotka-siero-neutralizzante-150-ml</url>
+      </offer>
+      <offer id="899" available="true">
+        <name>Очищающее молочко для лица, 200мл</name>
+        <price>4730</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/99/08/899/images/264/264.970.jpg</picture>
+        <description>LATTE VISO IDRATANTE – нежное молочко для очищения кожи и снятия макияжа.</description>
+        <url>https://jesmedexpert.ru/h0002-ochishchayushchee-molochko-latte-visio-detergente-ldratante-200ml</url>
+      </offer>
+      <offer id="3551" available="true">
+        <name>Очищающее молочко для лица, 500мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/51/35/3551/images/426/426.970.jpg</picture>
+        <description>LATTE VISO IDRATANTE – нежное молочко для очищения кожи и снятия макияжа.</description>
+        <url>https://jesmedexpert.ru/ochishchayushchee-molochko-dlya-litsa-500ml</url>
+      </offer>
+      <offer id="3531" available="true">
+        <name>Пилинг для чувствительной кожи ISECRET PEEL, 6мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/31/35/3531/images/399/399.970.png</picture>
+        <description>ISECRET PEEL Harmony Castle – пилинг, включающий в себя группу мягких кислот, которые не повреждают эпидермальный барьер, не истончают эпидермис и бережно решают проблему кожи пациента.</description>
+        <url>https://jesmedexpert.ru/piling-dlya-intimnogo-omolozheniya-isecret-peel-6-ml</url>
+      </offer>
+      <offer id="3530" available="true">
+        <name>Пилинг осветляющий MELP3, 2мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/30/35/3530/images/302/302.970.png</picture>
+        <description>MELP3 – осветляющий пилинг для коррекции и профилактики пигментации.</description>
+        <url>https://jesmedexpert.ru/piling-melp-3</url>
+      </offer>
+      <offer id="3529" available="true">
+        <name>Пилинг-иллюминайзер BIOT2, 6мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/29/35/3529/images/301/301.970.png</picture>
+        <description>Первый пилинг-иллюминайзер с "эффектом фотошопа" для здорового сияния кожи.</description>
+        <url>https://jesmedexpert.ru/piling-illyuminayzer-biot2-biorevitaliziruyushchiy-osvetlyayushchiy-piling-6-ml</url>
+      </offer>
+      <offer id="3248" available="true">
+        <name>Постбиотическая сыворотка для жирной кожи, 30мл</name>
+        <price>7580</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/48/32/3248/images/430/430.970.jpg</picture>
+        <description>SIERO PURIFICANTE BIOSYS PREBIOTA – очищающая постбиотическая сыворотка для проблемной кожи.</description>
+        <url>https://jesmedexpert.ru/h70607-byosys-pelli-dermopurificante-syvorotka-dlya-zhirnoy-kozhi-30ml</url>
+      </offer>
+      <offer id="600" available="true">
+        <name>Пребиотический очищающий мусс, 200мл</name>
+        <price>3730</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/00/06/600/images/292/292.970.png</picture>
+        <description>MOUSSE FACIAL CLEANSER BIOSYS PREBIOTA – обогащенный пребиотиками и постбиотиками мусс, для очищения кожи.</description>
+        <url>https://jesmedexpert.ru/h70602-prebioticheskiy-ochishchayushchiy-muss-prebiotic-foamy-cleansing-mousse-200-ml</url>
+      </offer>
+      <offer id="3249" available="true">
+        <name>Пробиотическая сыворотка для чувствительной кожи, 30 мл</name>
+        <price>7580</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/49/32/3249/images/431/431.970.jpg</picture>
+        <description>SIERO DECONGESTIONANTE BIOSYS PREBIOTA – сыворотка для чувствительной и склонной к куперозу кожи для восстановления микробиоты кожи.</description>
+        <url>https://jesmedexpert.ru/byosys-pelli-sensibili-syvorotka-dlya-chuvstvitelnoy-kozhi-30-ml</url>
+      </offer>
+      <offer id="3559" available="true">
+        <name>Реэпителизирующий лосьон, 150 мл</name>
+        <price>8510</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/59/35/3559/images/438/438.970.jpg</picture>
+        <description>EPITHELIOS SOLUZIONE RIEPITELIZZANTE – регенерирующий лосьон-SOS для поврежденной кожи.</description>
+        <url>https://jesmedexpert.ru/reepiteliziruyushchiy-loson-150-ml</url>
+      </offer>
+      <offer id="3560" available="true">
+        <name>Солнцезащитный крем для лица HELIOSYS SPF 30, 50мл</name>
+        <price>6470</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/60/35/3560/images/439/439.970.jpg</picture>
+        <description>HELIOSYS CREMA SOLARE VISO – крем для лица SPF 30 для защиты от UVA/UVB-лучей&#xD;</description>
+        <url>https://jesmedexpert.ru/solntsezashchitnyy-krem-dlya-litsa-heliosys-spf-30-50ml</url>
+      </offer>
+      <offer id="3561" available="true">
+        <name>Солнцезащитный крем для лица HELIOSYS SPF 50, 50мл</name>
+        <price>6470</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/61/35/3561/images/440/440.970.jpg</picture>
+        <description>HELIOSYS CREMA SOLARE VISO – крем для лица SPF 50 для защиты от UVA/UVB-лучей</description>
+        <url>https://jesmedexpert.ru/solntsezashchitnyy-krem-dlya-litsa-heliosys-spf-50-50ml</url>
+      </offer>
+      <offer id="3562" available="true">
+        <name>Солнцезащитный спрей для тела HELIOSYS SPF 30, 200мл</name>
+        <price>7210</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/62/35/3562/images/441/441.970.jpg</picture>
+        <description>HELIOSYS CREMA SOLARE CORPO – спрей для тела SPF 30 для защиты от UVA/UVB-лучей.&#xD;Полное описание: &#xD;</description>
+        <url>https://jesmedexpert.ru/solntsezashchitnyy-sprey-dlya-tela-heliosys-spf-30-200ml</url>
+      </offer>
+      <offer id="2186" available="true">
+        <name>Успокаивающий солнцезащитный крем SPF30, 250 мл</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/86/21/2186/images/275/275.970.jpg</picture>
+        <description>CREMA LENITIVA PROTETTIVA — солнцезащитный крем SPF30 с химическими факторами защиты от UVA/UVB-лучей, 250 мл.</description>
+        <url>https://jesmedexpert.ru/h0009-uspokaivayushchiy-soltsezashchitnyy-krem-spf30-crema-lenitiva-protettiva-spf-30-250-ml</url>
+      </offer>
+      <offer id="2188" available="true">
+        <name>Успокаивающий солнцезащитный крем SPF30, 50 мл</name>
+        <price>6200</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/88/21/2188/images/288/288.970.jpg</picture>
+        <description>CREMA LENITIVA PROTETTIVA — солнцезащитный крем SPF30 с химическими факторами защиты от UVA/UVB-лучей, 50 мл.</description>
+        <url>https://jesmedexpert.ru/h70202-uspokaivayushchiy-soltsezashchitnyy-krem-spf30-crema-lenitiva-protettiva-spf-30-50-ml</url>
+      </offer>
+      <offer id="2204" available="true">
+        <name>Черничный крем для век, 30мл</name>
+        <price>7040</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>82</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/04/22/2204/images/291/291.970.jpg</picture>
+        <description>CREMA CONTORNO OCCHI MIRTILLO — крем для деликатного ухода за кожей вокруг глаз с легким ароматом черники.</description>
+        <url>https://jesmedexpert.ru/h70420-krem-dlya-vek-crema-contorno-occhi-mirtillo-30ml</url>
+      </offer>
+      <offer id="3578" available="true">
+        <name>A-QS Hacker Balance Foam Пенка для лица, регулирующий микробиом кожи, 200мл</name>
+        <price>4580</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/78/35/3578/images/458/458.970.png</picture>
+        <description>A-QS Hacker Balance Foam — это глубоко очищающая пенка для лица, специально разработанная для кожи с нарушенным микробиомом. Благодаря уникальной формуле, содержащей Quora Noni™ и шикимовую кислоту, пенка эффективно очищает кожу, регулирует её микробиом и подготавливает к дальнейшим действиям по уходу или лечению.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-balance-foam-penka-dlya-litsa-reguliruyushchiy-mikrobiom-kozhi-200ml</url>
+      </offer>
+      <offer id="3380" available="true">
+        <name>A-QS Hacker Day Cream - крем, регулирующий микробиом кожи, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/80/33/3380/images/109/109.970.png</picture>
+        <description>Легкий матирующий дневной крем для жирной, комбинированной кожи, склонной к акне. Нежно увлажняет и регулирует микробиом кожи, уменьшая угри, уровень кожного сала, количество бактерий и размер пор.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-day-cream-krem-reguliruyushchiy-mikrobiom-kozhi-50-ml</url>
+      </offer>
+      <offer id="3576" available="true">
+        <name>A-QS Hacker Gel - Очищающий гель, регулирующий микробиом кожи, 200 мл</name>
+        <price>2725</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/76/35/3576/images/456/456.970.png</picture>
+        <description>Очищающий гель с Quora Noni™ и шикимовой кислотой – это инновационное средство для эффективного очищения кожи, разработанное для людей со сложными состояниями кожи. Этот гель не только удаляет макияж и загрязнения, но и регулирует микробиом кожи и уровень кожного сала, подготавливая кожу к дальнейшим действиям по уходу или лечению.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-gel-ochishchayushchiy-gel-reguliruyushchiy-mikrobiom-kozhi-200-ml</url>
+      </offer>
+      <offer id="3378" available="true">
+        <name>A-QS Hacker Mask - маска с шикимовой и гиалуроновой  кислотами, 75мл</name>
+        <price>3800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/78/33/3378/images/110/110.970.png</picture>
+        <description>Гелевая маска, регулирующая микробиом кожи.  Маска идеально подойдёт для самой чувствительной кожи, кожи с акне.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-mask-dermokosmetologicheskaya-maska-s-shikimovoy-i-gialuronovoy-kislotami-75-ml</url>
+      </offer>
+      <offer id="3381" available="true">
+        <name>A-QS Hacker Night Cream - вечерний крем с бакучиолом, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/81/33/3381/images/111/111.970.png</picture>
+        <description>Специальный ночной крем, для жирной проблемной кожи, регулирующий микробиом.  При ежедневном применении - незамедлительный выраженные акнтибактериальный, противоугревой, и себостатический эффекты.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-night-cream-vecherniy-krem-s-bakuchiolom-rastitelnyy-retinoid-50-ml</url>
+      </offer>
+      <offer id="3577" available="true">
+        <name>A-QS Hacker Toner Тонер для лица, регулирующий микробиом кожи, 200мл </name>
+        <price>2415</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/77/35/3577/images/457/457.970.png</picture>
+        <description>Специализированный очищающий тонер с Quora Noni™ и шикимовой кислотой – это инновационное средство для ухода за кожей, разработанное для людей со сложными состояниями кожи. Этот тонер не только регулирует микробиом и уровень кожного сала, но и восстанавливает правильный уровень pH кожи, подготавливая её к дальнейшим этапам ухода.</description>
+        <url>https://jesmedexpert.ru/a-qs-hacker-toner-toner-dlya-litsa-reguliruyushchiy-mikrobiom-kozhi-200ml</url>
+      </offer>
+      <offer id="3325" available="true">
+        <name>Acid Cleansing Gel - предпилинговый очищающий гель с кислотами, 200мл</name>
+        <price>3800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/25/33/3325/images/113/113.970.png</picture>
+        <description>Очищающий гель с кислотами. Для домашнего использования.</description>
+        <url>https://jesmedexpert.ru/acid-cleansing-gel-predpilingovyy-ochishchayushchiy-gel-s-kislotami-200-ml</url>
+      </offer>
+      <offer id="3317" available="true">
+        <name>Acid Flower Solution - тоник с цветочной и гиалуроновой кислотами, 200мл</name>
+        <price>4120</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/17/33/3317/images/114/114.970.png</picture>
+        <description>Активный тоник для всех типов кожи с гиалуроновой и цветочной кислотами.</description>
+        <url>https://jesmedexpert.ru/acid-flower-solution-tonik-s-tsvetochnoy-i-gialuronovoy-kislotami-200-ml</url>
+      </offer>
+      <offer id="3573" available="true">
+        <name>Adapt Cream Защитный крем для лица комплексного действия, 50мл</name>
+        <price>9885</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/73/35/3573/images/453/453.970.png</picture>
+        <description>Суперсовременный крем, адаптирующий кожу для защиты от вредного воздействия UVB-, ВИЗ-излучения, гликированного старения и окислительного стресса. Поддерживает антиоксидантную и детоксикационную систему кожи, стимулирует рецепторы витамина D в коже.&#xD;</description>
+        <url>https://jesmedexpert.ru/adapt-cream-zashchitnyy-krem-dlya-litsa-kompleksnogo-deystviya-50ml</url>
+      </offer>
+      <offer id="3579" available="true">
+        <name>Amber Hyaluronic Re-Derm Energiser Редермализующий крем с янтарной и гиалуроновой кислотами, 50мл</name>
+        <price>14915</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/79/35/3579/images/459/459.970.png</picture>
+        <description>Роскошный крем, содержащий уникальное сочетание биостимуляторов кожи: янтарную кислоту, экстракт янтаря и высокомолекулярную гиалуроновую кислоту.</description>
+        <url>https://jesmedexpert.ru/amber-hyaluronic-re-derm-energiser-redermalizuyushchiy-krem-s-yantarnoy-i-gialuronovoy-kislotami-50ml</url>
+      </offer>
+      <offer id="3315" available="true">
+        <name>AzAc Forte 15% Cream - крем с 15% азелаиновой кислотой, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/15/33/3315/images/129/129.970.png</picture>
+        <description>Дермакосметический крем с высоким содержанием азелаиновой кислоты, позволяющий достигать высокого противоугревого эффекта.</description>
+        <url>https://jesmedexpert.ru/azac-forte-15-cream-krem-s-15-azelainovoy-kislotoy-50-ml</url>
+      </offer>
+      <offer id="3314" available="true">
+        <name>AzAc Solution - тоник с азелоглицином, 200мл</name>
+        <price>4120</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/14/33/3314/images/131/131.970.png</picture>
+        <description>Тоник  для проблемной жирной кожи с элементами акне, а также для кожи с проявлениями розацеа.</description>
+        <url>https://jesmedexpert.ru/azac-solution-tonik-s-azeloglitsinom-200-ml</url>
+      </offer>
+      <offer id="3296" available="true">
+        <name>Bioactive Face Milk - очищающее молочко, 200мл</name>
+        <price>2319</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/96/32/3296/images/132/132.970.png</picture>
+        <description>Биоактивное молочко деликатно удаляет макияж и загрязнения, не нарушая защитный барьер кожи.</description>
+        <url>https://jesmedexpert.ru/bioactive-face-milk-ochishchayushchee-molochko-200-ml</url>
+      </offer>
+      <offer id="3298" available="true">
+        <name>Bioactive Face Toner - биоактивный тоник для лица с гиалуроновой кислотой, 200мл</name>
+        <price>2060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/98/32/3298/images/136/136.970.png</picture>
+        <description>Гипоаллергенный тоник  с комплексом влагоудерживающих и активизирующих обменные процессы в коже биоактивных ингредиентов.</description>
+        <url>https://jesmedexpert.ru/bioactive-face-toner-bioaktivnyy-toner-dlya-litsa-s-gialuronovoy-kislotoy-200-ml</url>
+      </offer>
+      <offer id="3366" available="true">
+        <name>Biomimetic Eye Cream - биомиметический лифтинговый крем для глаз, 15мл</name>
+        <price>5730</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/66/33/3366/images/377/377.970.jpg</picture>
+        <description>Экспресс-средство для интенсивного увлажнения и омоложения кожи вокруг глаз на основе омолаживающих пептидов в высокой концентрации.</description>
+        <url>https://jesmedexpert.ru/biomimetic-eye-cream-biomimeticheskiy-liftingovyy-krem-dlya-glaz-15-ml</url>
+      </offer>
+      <offer id="3359" available="true">
+        <name>Biomimetic Lift Up Cream - лифтинг-крем с биомимическим пептидом, 50мл</name>
+        <price>7020</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/59/33/3359/images/374/374.970.jpg</picture>
+        <description>Эксклюзивный биомиметический пептидный крем с эффектом лифтинга. Обладает роскошной текстурой, быстро впитывается, не оставляя на коже неприятных ощущений. Идеально подходит под макияж.</description>
+        <url>https://jesmedexpert.ru/biomimetic-lift-up-cream-lifting-krem-s-biomimcheskim-peptidom-50-ml</url>
+      </offer>
+      <offer id="3364" available="true">
+        <name>Bo2Look Elixir - эликсир для расслабления мимических морщин, 20мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/64/33/3364/images/381/381.970.jpg</picture>
+        <description>Лифтинговый препарат выраженного действия с нейропептидом (концентрация 5%) - миорелаксантом последнего поколения, проникающим в ткани области морщин и расслабляющим сверхактивные мышцы.</description>
+        <url>https://jesmedexpert.ru/bo2look-elixir-eliksir-dlya-rasslableniya-mimicheskikh-morshchin-20-ml</url>
+      </offer>
+      <offer id="3583" available="true">
+        <name>C-Fusion Glow Illuminator – Крем для лица "Ослепительное сияние", 50мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/83/35/3583/images/468/468.970.png</picture>
+        <description>Осветляющий крем с высокой концентрацией витамина С и куркумина, который обеспечивает мгновенное сияние и эффект «золотого прикосновения».</description>
+        <url>https://jesmedexpert.ru/c-fusion-glow-illuminator-krem-dlya-litsa-oslepitelnoe-siyanie-50ml</url>
+      </offer>
+      <offer id="3301" available="true">
+        <name>Crystal Peel - кристаллический пилинг с салициловой кислотой, 75мл</name>
+        <price>3800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/01/33/3301/images/366/366.970.png</picture>
+        <description>Crystal Peel - уникальное средство для глубокого очищения кожи, объединившее свойства механического и кислотного пилинга, предназначено для ухода за жирной кожей, 75 мл.</description>
+        <url>https://jesmedexpert.ru/crystal-peel-kristallicheskiy-piling-s-salitsilovoy-kislotoy-75-ml</url>
+      </offer>
+      <offer id="3546" available="true">
+        <name>Derma Collage Moisture Cream - Увлажняющий крем, 50 мл</name>
+        <price>9595</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/46/35/3546/images/420/420.970.jpg</picture>
+        <description>Увлажняющий крем нового поколения. Универсальный продукт для всех типов кожи с лифтинг эффектом и выравнивающий тон кожи.</description>
+        <url>https://jesmedexpert.ru/3546</url>
+      </offer>
+      <offer id="3584" available="true">
+        <name>Derma Collage Moisture Essence – Увлажняющая эссенция для лица с коллагеном, 100мл</name>
+        <price>3160</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/84/35/3584/images/469/469.970.png</picture>
+        <description>Эссенция для глубокого и длительного увлажнения кожи, которая подарит невероятное ощущение мягкости и свежести.</description>
+        <url>https://jesmedexpert.ru/derma-collage-moisture-essence-uvlazhnyayushchaya-essentsiya-dlya-litsa-s-kollagenom-100ml</url>
+      </offer>
+      <offer id="3303" available="true">
+        <name>Enzymatic Peel - энзимный пилинг, 75мл</name>
+        <price>3800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/03/33/3303/images/367/367.970.png</picture>
+        <description>Инновационный пилинг на основе биокомплекса папайи, ананаса и манго обеспечивает глубокое, но при этом бережное очищение кожи в домашних условиях.</description>
+        <url>https://jesmedexpert.ru/enzymatic-peel-enzimnyy-piling-75-ml</url>
+      </offer>
+      <offer id="3570" available="true">
+        <name>EXO Nutri Power Омолаживающая пробиотическая пищевая добавка с экзосомами, 30 капсул</name>
+        <price>10505</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/70/35/3570/images/450/450.970.png</picture>
+        <description>EXO Nutri Power — это уникальная диетическая добавка, которая не только замедляет процесс старения, но и оказывает пребиотическое действие, регулируя микробиом кишечника и укрепляя иммунитет. В каждой капсуле содержится сублимированный экстракт красного апельсина, граната, винограда, мандарина, папайи и цикория, а также 10млрд экзосом.</description>
+        <url>https://jesmedexpert.ru/exo-nutri-power-omolazhivayushchaya-probioticheskaya-pishchevaya-dobavka-s-ekzosomami-30-kapsul</url>
+      </offer>
+      <offer id="3572" available="true">
+        <name>EXO Power Омолаживающая сыворотка с экзосомами и гиалуроновой кислотой для лица, 30мл</name>
+        <price>13555</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/72/35/3572/images/452/452.970.png</picture>
+        <description>EXO POWER - Омолаживающая сыворотка с экзосомами и гиалуроновой кислотой для лица создана для того, чтобы вернуть коже молодость и сияние. Реструктурирующая сыворотка содержит уникальный ExoComplex®, который не только стимулирует клеточное обновление, уменьшает признаки старения, но и обеспечивает глубокую регенерацию кожи.</description>
+        <url>https://jesmedexpert.ru/exo-power-omolazhivayushchaya-syvorotka-s-ekzosomami-i-gialuronovoy-kislotoy-dlya-litsa-30ml</url>
+      </offer>
+      <offer id="3571" available="true">
+        <name>EXO Skin Control Сыворотка с экзосомами, регулирующая микробиом кожи, 30мл</name>
+        <price>13555</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/71/35/3571/images/451/451.970.png</picture>
+        <description>Exo Skin Control — это инновационная сыворотка с экзосомами, специально разработанная для укрепления проблемной кожи и балансировки её микробиома. Этот продукт идеально подходит для ухода за кожей, склонной к гиперпигментации и эритеме, а также для поддержки после профессиональных процедур.&#xD;</description>
+        <url>https://jesmedexpert.ru/exo-skin-control-syvorotka-s-ekzosomami-reguliruyushchaya-mikrobiom-kozhi-30ml</url>
+      </offer>
+      <offer id="3273" available="true">
+        <name>Extreme Regenerator - экстрарегенерирующий крем для лица, 50мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/73/32/3273/images/339/339.970.png</picture>
+        <description>Дермокосметический  высококонцентрированный крем, предназначенный для  ухода за очень сухой, раздраженной и шелушащейся кожей.</description>
+        <url>https://jesmedexpert.ru/extreme-regenerator-ekstraregeneriruyushchiy-krem-dlya-litsa-50-ml</url>
+      </offer>
+      <offer id="3313" available="true">
+        <name>Eye Contour Mask Гидрогелевая маска для периорбитальной области, 1шт.</name>
+        <price>1175</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/13/33/3313/images/359/359.970.png</picture>
+        <description>Гидрогелевые маски для глаз, предназначены для борьбы с синюшностью и морщинами в условиях профессионального и домашнего ухода.</description>
+        <url>https://jesmedexpert.ru/eye-full-effect-mask-gidrogelevaya-maska-dlya-pereorbitalnoy-oblasti-s-peptidami-1-sht</url>
+      </offer>
+      <offer id="3310" available="true">
+        <name>Eye Illuminator - иллюминатор для периорбитальной области с транексамовой и лактобионовой кислотами, 15мл</name>
+        <price>6055</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/10/33/3310/images/358/358.970.jpg</picture>
+        <description>Нежный крем для глаз со  светоотражающим специальным "пигментом" создает на коже сияющую вуаль. Стирает следы усталости, позволяя коже светиться. Уменьшает темные круги под глазами, снимая отёки вокруг глаз.</description>
+        <url>https://jesmedexpert.ru/eye-illuminator-illyuminator-dlya-periorbitalnoy-oblasti-s-traneksamovoy-i-laktobionovoy-kislotami-i-vitaminom-s-15-ml</url>
+      </offer>
+      <offer id="3309" available="true">
+        <name>Eye Neuro Lift - лифтинговый флюид для периорбитальной области, 15мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/09/33/3309/images/356/356.970.jpg</picture>
+        <description>Нейросыворотка для кожи вокруг глаз - нейрокосметическое средство с глубоким проникновением в кожу, имеющее длительное действие. После применения данного средства происходит быстрое расслабление морщин и их разглаживание.</description>
+        <url>https://jesmedexpert.ru/eye-neuro-lift-superliftingovyy-flyuid-dlya-periorbitalnoy-oblasti-15-m</url>
+      </offer>
+      <offer id="3311" available="true">
+        <name>Eye Total Elixir - эликсир для периорбитальной области, 15мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/11/33/3311/images/357/357.970.jpg</picture>
+        <description>Средство интенсивного ухода за периорбитальной областью. Содержит полный комплекс ингредиентов, направленный на устранение отёчности и синяков, улучшения эластичности кожи, разглаживания сети мимических и возрастных морщин.</description>
+        <url>https://jesmedexpert.ru/eye-total-elixir-eliksir-dlya-pereorbitalnoy-oblasti-15-ml</url>
+      </offer>
+      <offer id="3294" available="true">
+        <name>Eye+Face Micellar Water - мицеллярная вода для демакияжа, 200мл</name>
+        <price>2515</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/94/32/3294/images/365/365.970.png</picture>
+        <description>Гипоаллергенное средство для деликатного удаления макияжа с лица и глаз.</description>
+        <url>https://jesmedexpert.ru/eye-face-micellar-water-mitstselyarnaya-voda-dlya-demokiazha-200-ml</url>
+      </offer>
+      <offer id="3318" available="true">
+        <name>Flower Peel - гель-пилинг с цветочной и гиалуроновой кислотами, 50мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/18/33/3318/images/106/106.970.png</picture>
+        <description>Средство на базе цветочной и гиалуроновой кислот для применения в домашних условиях  на этапе глубокого очищения.</description>
+        <url>https://jesmedexpert.ru/28d-flower-peel-gel-piling-s-tsvetochnoy-i-gialuronovoy-kislotami-50-ml</url>
+      </offer>
+      <offer id="3575" available="true">
+        <name>Full Spectrum Protect Drops Фотозащитные капли для лица SPF 30, 30мл</name>
+        <price>9885</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/75/35/3575/images/455/455.970.png</picture>
+        <description>Full Spectrum Protect Drops — это фотозащитные капли для лица, которые обеспечивают очень высокую степенью защиты от вредного воздействия УФ-лучей. Они создают мощный барьер против фотостарения, технологий и городского образа жизни, который может привести к преждевременному старению кожи.</description>
+        <url>https://jesmedexpert.ru/full-spectrum-protect-drops-fotozashchitnye-kapli-dlya-litsa-spf-30-30ml</url>
+      </offer>
+      <offer id="3574" available="true">
+        <name>Full Spectrum Vitamin Drops Омолаживающие капли для лица с витамином D3, 30мл</name>
+        <price>8360</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/74/35/3574/images/454/454.970.png</picture>
+        <description>Full Spectrum Vitamin Drops — это революционный продукт для ухода за кожей лица, который помогает поддерживать здоровье и молодость кожи круглый год. Богатый каротиноидами и витамином D, он стимулирует рецепторы витамина D в коже, что способствует укреплению ее барьерной функции и уменьшению видимости морщин и пигментных пятен.</description>
+        <url>https://jesmedexpert.ru/full-spectrum-vitamin-drops-omolazhivayushchie-kapli-dlya-litsa-s-vitaminom-d3-30ml</url>
+      </offer>
+      <offer id="3338" available="true">
+        <name>Lactobionic 10% &amp; Vit A+C Cream - крем для чувствительной кожи c лактобионовой кислотой и витаминами А,С, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/38/33/3338/images/317/317.970.jpg</picture>
+        <description>Нежный, увлажняющий и регенерирующий крем с лактобионовой кислотой и витамином А, С для чувствительной кожи.</description>
+        <url>https://jesmedexpert.ru/lactobionic-10-vit-a-c-cream-regeneriruyushchiy-krem-dlya-chuvstvitelnoy-kozhi-c-laktobionovoy-kislotoy-i-vitaminami-a-i-s-50-ml</url>
+      </offer>
+      <offer id="3337" available="true">
+        <name>Lactobionic 5% &amp; Hyaluron Cream - увлажняющий крем с лактобиновой и гиалуроновой кислотами, 50мл</name>
+        <price>6700</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/37/33/3337/images/316/316.970.png</picture>
+        <description>Крем улучшает эластические свойства кожи, способствует уменьшению глубины морщин.</description>
+        <url>https://jesmedexpert.ru/lactobionic-5-hyaluron-cream-uvlazhnyayushchiy-krem-dlya-lyubogo-tipa-kozhi-s-laktobinovoy-i-gialuronovoy-kislotami-50-ml</url>
+      </offer>
+      <offer id="3335" available="true">
+        <name>Lactobionic Micellar Toner - увлажняющий и регенерирующий тоник, 200мл</name>
+        <price>4120</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/35/33/3335/images/319/319.970.jpg</picture>
+        <description>Препарат объединяет функции тонизирования и интенсивного ухода (превращает эпидермис в «губку», впитывающую биокомпоненты в глубокие слои кожи).</description>
+        <url>https://jesmedexpert.ru/lactobionic-micellar-toner-uvlazhnyayushchiy-i-regeneriruyushchiy-toner-dlya-lyubogo-tipa-kozhi-200</url>
+      </offer>
+      <offer id="3336" available="true">
+        <name>Lactobionic Micellar Gel - увлажняющий и очищающий гель, 200мл</name>
+        <price>4120</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/36/33/3336/images/318/318.970.png</picture>
+        <description>Очищающий гель для бережного очищения кожи от избытков кожного сала, токсинов, продуктов метаболизма и загрязнений без стягивания и пересушивания.</description>
+        <url>https://jesmedexpert.ru/3336</url>
+      </offer>
+      <offer id="3287" available="true">
+        <name>Neuro Cannabis Cream-Mask - восстанавливающая нейрокрем-маска со стволовыми клетками конопли, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/87/32/3287/images/344/344.970.png</picture>
+        <description>Питательная крем-маска с высоким содержанием масел конопли и мака, предназначенная для ночной регенерации раздраженной и сухой кожи.</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-cream-mask-vosstanavlivayushchaya-neyrokrem-maska-so-stvolovymi-kletkami-kolopli-50-ml</url>
+      </offer>
+      <offer id="3292" available="true">
+        <name>Neuro Cannabis Foot Cream - заживляющий нейрокрем для ног, 75мл</name>
+        <price>2385</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/92/32/3292/images/348/348.970.png</picture>
+        <description>Крем для очень сухих ног, склонных к потрескиванию  эпидермиса. Идеально подходит для ухода за кожей с экземой и кожей диабетической стопы.</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-foot-cream-zazhivlyayushchiy-neyrokrem-dlya-nog-75-ml</url>
+      </offer>
+      <offer id="3293" available="true">
+        <name>Neuro Cannabis Hand &amp; Body Balm - нейробальзам для рук и тела, 200мл</name>
+        <price>4185</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/93/32/3293/images/349/349.970.png</picture>
+        <description>Идеально подходит для ежедневного ухода за всем телом. Бальзам для рук и тела  прекрасно регенерирует и питает кожу, а также снимает сухости шелушение на коже.</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-hand-body-balm-neyrobalzam-so-stvolovymi-kletkami-konopli-dlya-ruk-i-dlya-tela-200-ml</url>
+      </offer>
+      <offer id="3291" available="true">
+        <name>Neuro Cannabis Repair Ointment - заживляющая нейромазь для сухой, потрескавшейся кожи, 50гр</name>
+        <price>3800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/91/32/3291/images/350/350.970.png</picture>
+        <description>Нейромазь на основе конопляного и макового масла, с добавлением карнаубского и пчелиного воска, идеально подходит для использования на проблемных участках со склонностью к кератозу, требующих регенерации (руки, ноги, колени, локти).</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-repair-ointment-zazhivlyayushchiy-neyrokrem-dlya-sukhoy-potreskovsheysya-kozhi-v-oblasti-loktey-ruk-stupney-50-gr</url>
+      </offer>
+      <offer id="3285" available="true">
+        <name>Neuro Cannabis Solution - тоник со стволовыми клетками конопли, 200мл</name>
+        <price>3475</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/85/32/3285/images/346/346.970.png</picture>
+        <description>Мягкий дермокосметический тоник, обогащенный Kannabia SensePLF и экстрактом тасманского перца. Идеален для самой чувствительной кожи. Тоник восстанавливает нарушенный гидролипидный барьер, снимает усталость, возвращает сияние коже.</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-solution-myagkiy-dermokosmeticheskiy-tonik-so-stvolovymi-kletkami-konopli-200-ml</url>
+      </offer>
+      <offer id="3284" available="true">
+        <name>Neuro Cannabis Foam - нежная очищающая нейропенка со стволовыми клетками конопли, 200мл</name>
+        <price>3605</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/84/32/3284/images/347/347.970.png</picture>
+        <description>Ультранежная и воздушная очищающая пенка для лица, богатая маслами каннабиса и мака. Тщательно очищает кожу от загрязнений, воздействуя на кожу, подвергшуюся стрессу из-за суровых погодных условий и окружающей среды.</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-foam-nezhnaya-ochishchayushchaya-neyropenka-so-stvolovymi-kletkami-konopli-200-ml</url>
+      </offer>
+      <offer id="3348" available="true">
+        <name>Neuro Gaba Lift Mask - лифтинговая нейромаска с кислотой ГАМК, 50мл</name>
+        <price>4445</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/48/33/3348/images/354/354.970.png</picture>
+        <description>Суперлифтинговая маска, разглаживания морщины на коже лица, шеи и декольте. Для домашнего использования.</description>
+        <url>https://jesmedexpert.ru/neuro-gaba-lift-mask-liftingovaya-neyromaska-s-kislotoy-gamk-50-gr</url>
+      </offer>
+      <offer id="3346" available="true">
+        <name>Neuro Gaba&amp;Nana Cream - омолаживающий нейрокрем с кислотами ГАМК и НАНА, 50мл</name>
+        <price>9335</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/46/33/3346/images/352/352.970.png</picture>
+        <description>Роскошный крем для лица, обеспечивающий сильный лифтинговый, разглаживающий и омолаживающие эффекты.</description>
+        <url>https://jesmedexpert.ru/neuro-gaba-nana-cream-omolazhivayushchiy-neyro-krem-s-kislotami-gamk-i-nana-50-ml</url>
+      </offer>
+      <offer id="3367" available="true">
+        <name>Neuro Peptide Mask - омолаживающая нейромаска для лица с пептидом, 1шт.</name>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/67/33/3367/images/382/382.970.png</picture>
+        <description>Нейропептидная маска из нанобиоцеллюлозы  с эффектом мезоботокса.</description>
+        <url>https://jesmedexpert.ru/neuro-peptide-mask-omolazhivayushchay-neyromaska-dlya-litsa-s-peptidom-1-sht</url>
+      </offer>
+      <offer id="3286" available="true">
+        <name>Neuro Cannabis Elixir-Cream - восстанавливающий  нейрокрем-эликсир со стволовыми клетками конопли, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/86/32/3286/images/341/341.970.png</picture>
+        <description>Этот уникальный крем восстанавливает защитный барьер и регулирует микробиом кожи. Возращает комфорт коже, снимая разного рода раздражения, покалывания,жжения благодаря маслу конопли и мака. Увлажняет уставшую кожу, лишенную сияния, подверженную шелушению и сухости. Обладает успокаивающим действием. Защищает кожу от  суровых погодных условий</description>
+        <url>https://jesmedexpert.ru/neuro-cannabis-elixir-cream-vosstanavlivayushchiy-neyrokrem-eliksir-so-stvolovymi-kletkami-konopli-50-ml</url>
+      </offer>
+      <offer id="3331" available="true">
+        <name>Neuro Sensi Cream - нейрокрем для чувствительной кожи с куперозом, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/31/33/3331/images/370/370.970.jpg</picture>
+        <description>Дермакосметический препарат, представляет собой дневной уход за гиперчувствительной и капиллярной кожей.</description>
+        <url>https://jesmedexpert.ru/neuro-sensi-cream-neyrokrem-dlya-chuvstvitelnoy-kozhi-s-kuperozom-50-ml</url>
+      </offer>
+      <offer id="3332" available="true">
+        <name>Neuro Sensi Mask - нейромаска для чувствительной кожи с куперозом, 50мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/32/33/3332/images/371/371.970.png</picture>
+        <description>Высококонцентрированная маска для кожи с куперозом. Обладает многоуровневым воздействием на все проблемы гиперчувствительной и капиллярной кожи.</description>
+        <url>https://jesmedexpert.ru/neuro-sensi-mask-neyromaska-dlya-chuvstvitelnoy-kozhi-s-kuperozom-50-ml</url>
+      </offer>
+      <offer id="3328" available="true">
+        <name>Post Treat Ointment - крем для защиты участков кожи лица от химического пилинга, 15мл</name>
+        <price>2515</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/28/33/3328/images/328/328.970.png</picture>
+        <description>Данное средство предназначено для точечного нанесения на кожу лица (родинки, невусы, уголки глаз).</description>
+        <url>https://jesmedexpert.ru/post-treat-ointment-spetsialnyy-krem-dlya-zashchity-delikatnykh-uchastkov-kozhi-litsa-ot-khimicheskogo-pilinga-rodinki-nevusy-ugolki-glaz-15-ml</url>
+      </offer>
+      <offer id="3540" available="true">
+        <name>Post Treat Set - набор для домашнего ухода после интенсивных процедур</name>
+        <price>5090</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/40/35/3540/images/411/411.970.png</picture>
+        <description>Данный набор  включает в себя 3 продукта, необходимые для домашнего ухода  после интенсивных процедур (солнцезащитный крем SPF 50 10 мл, успокаивающий SOS-гель для лица 15 мл, экстрарегенерирующий крем для лица 10 мл)</description>
+        <url>https://jesmedexpert.ru/post-treat-set-nabor-dlya-domashnego-ukhoda-posle-intensivnykh-protsedur</url>
+      </offer>
+      <offer id="3357" available="true">
+        <name>PRP Elixir - омолаживающий эликсир с эффектом плазмолифтинга, 20мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/57/33/3357/images/445/445.970.png</picture>
+        <description>Ремоделирующий эликсир с эффектом плазмолифтинга, содержащий высокую концентрацию пептидов W3 и GHK-Cu и PRP-подобного действия (плазма, обогащенная тромбоцитами).</description>
+        <url>https://jesmedexpert.ru/prp-elixir-omolazhivayushchiy-eliksir-s-effektom-plazmoliftinga-20-ml</url>
+      </offer>
+      <offer id="3358" available="true">
+        <name>PRP Mask - омолаживающая тканевая маска с эффектом плазмолифтинга, 1шт.</name>
+        <price>2060</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/58/33/3358/images/387/387.970.png</picture>
+        <description>Ремоделирующая  маска из нанобиоцелюлозы с эффектом плазмолифтинга.</description>
+        <url>https://jesmedexpert.ru/prp-mask-omolazhivayushchaya-tkanevaya-maska-s-effektom-plazmoliftinga-1-sht</url>
+      </offer>
+      <offer id="3355" available="true">
+        <name>PRP Rejuvenator - омолаживающий крем с эффектом плазмолифтинга, 50мл</name>
+        <price>9595</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/55/33/3355/images/385/385.970.png</picture>
+        <description>PRP Rejuvenator - ремоделирующий омолаживающий крем с эффектом плазмолифтинга, 50 мл.</description>
+        <url>https://jesmedexpert.ru/prp-rejuvenator-omolazhivayushchiy-krem-s-effektom-plazmoliftinga-50-ml</url>
+      </offer>
+      <offer id="3352" available="true">
+        <name>Reti Fusion® Vecti+ Cream SPF15 - дневной крем с векторным ретинолом и витаминами A,E,C, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/52/33/3352/images/312/312.970.png</picture>
+        <description>Дневной крем c солнцезащитным фактором SPF15, векторным ретинолом и инкапсулированными витаминами A, E, C, направленным омолаживающим действием.</description>
+        <url>https://jesmedexpert.ru/reti-fusion-vecti-cream-spf-15-dnevnoy-krem-s-vektornym-retinolom-i-inkapsulirovannymi-vitaminami-a-e-c-i-spf-15-50-ml</url>
+      </offer>
+      <offer id="3351" available="true">
+        <name>Reti Fusion® Vecti+ Essence Mask - омолаживающая маска с векторным ретинолом и витаминами A,E,C, 50мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/51/33/3351/images/313/313.970.png</picture>
+        <description>Ночная маска Essence с векторным ретинолом и инкапсулированными витаминами A, E, С обладает мощным молекулярным омоложением.</description>
+        <url>https://jesmedexpert.ru/reti-fusion-vecti-essence-mask-omolazhivayushchaya-maska-s-vektornym-retinolom-i-kapsulirovannymi-vitaminami-a-e-c-50-ml</url>
+      </offer>
+      <offer id="3582" available="true">
+        <name>Skin Tone Forte-C Elixir Эликсир осветляющий с витамином С для лица, 20мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/82/35/3582/images/462/462.970.png</picture>
+        <description>Уникальный эликсир, содержащий высокую концентрацию витамина С, заключенный в сферическом носителе, благодаря прорывной технологии доставки активных компонентов в глубокие слои кожи, обеспечивает немедленное улучшение состояния кожи. Уход дополняется эффектом атласной гладкой кожи. После нанесения на кожу виден эффект здоровой, сияющей кожи.</description>
+        <url>https://jesmedexpert.ru/skin-tone-forte-c-elixir-eliksir-osvetlyayushchiy-s-vitaminom-s-dlya-litsa-20ml</url>
+      </offer>
+      <offer id="3581" available="true">
+        <name>Skin Tone Neuro Body Balm Осветляющий бальзам для тела, 200мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/81/35/3581/images/461/461.970.png</picture>
+        <description>Специальный бальзам для особых частей тела, требующих осветления, уменьшения эритемы: подмышек, бикини, подбородка. Бальзам содержит Quora NoniPRCF и шикимовую кислоту, которые регулируют микробиом кожи, снимают воспаление. Транексамовая кислота осветляет пигментацию в деликатных зонах.</description>
+        <url>https://jesmedexpert.ru/skin-tone-neuro-body-balm-osvetlyayushchiy-balzam-dlya-tela-200ml</url>
+      </offer>
+      <offer id="3580" available="true">
+        <name>Skin Tone Neuro Cream Осветляющий крем для лица, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/80/35/3580/images/460/460.970.png</picture>
+        <description>Skin Tone Neuro крем применяется для осветления кожи в профессиональных процедурах и домашнем уходе. Крем содержит биомиметический пептид B-White™, который на данный момент имеет наиболее выраженное доказанное осветляющее действие. Также в составе транексамовая кислота и ниацинамид.</description>
+        <url>https://jesmedexpert.ru/skin-tone-neuro-cream-osvetlyayushchiy-krem-dlya-litsa-50ml</url>
+      </offer>
+      <offer id="3290" available="true">
+        <name>Snow Fungus Mask - ультра восстанавливающая маска со снежным грибом, 1шт.</name>
+        <price>1995</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/90/32/3290/images/343/343.970.png</picture>
+        <description>Биоструктурированная маска из снежного грибка с гиалуроновой кислотой, пептидом PAL-GHK и витаминами (C, E) с уникальными успокаивающими и защитными свойствами.</description>
+        <url>https://jesmedexpert.ru/snow-fungus-mask-ultra-vosstanavlivayushchaya-maska-so-snezhnym-gribom-1-sh</url>
+      </offer>
+      <offer id="3330" available="false">
+        <name>Sun Protect Cream SPF50 - суперлегкий солнцезащитный крем, 50мл</name>
+        <price>5730</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/30/33/3330/images/340/340.970.jpg</picture>
+        <description>Революционная формула превращает традиционный солнцезащитный крем в воздушную эмульсию. Обеспечивает максимальную защиту от негативного воздействия солнечных лучей спектра А и В.</description>
+        <url>https://jesmedexpert.ru/sun-protect-cream-spf-50-superlegkiy-solntsezashchitnyy-krem-s-spf-50-ot-luchey-uva-uvb-50-ml</url>
+      </offer>
+      <offer id="3371" available="true">
+        <name>UniTone Forte-C Elixir - осветляющий эликсир с витамином С, 20мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/71/33/3371/images/335/335.970.jpg</picture>
+        <description>Уникальный эликсир, содержащий высокую концентрацию витамина С, заключенный в сферическом носителе.</description>
+        <url>https://jesmedexpert.ru/unitone-forte-c-elixir-osvetlyayushchiy-eliksir-s-vitaminom-s-20-ml</url>
+      </offer>
+      <offer id="3372" available="true">
+        <name>UniTone Neuro Body Balm - осветляющий нейробальзам для тела с биомиметическим пептидом, 200мл</name>
+        <price>6375</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/72/33/3372/images/334/334.970.jpg</picture>
+        <description>Специальный бальзам для особых частей тела, требующих осветления, уменьшения эритемы: подмышек, бикини, подбородка.</description>
+        <url>https://jesmedexpert.ru/unitone-neuro-body-balm-osvetlyayushchiy-neyrobalzam-dlya-delikatnykh-zon-tela-s-inkapsulirovannym-biomimeticheskim-peptidom-200-ml</url>
+      </offer>
+      <offer id="3368" available="true">
+        <name>UniTone Neuro Cream - осветляющий нейрокрем с биомиметическим пептидом, 50мл</name>
+        <price>7660</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/68/33/3368/images/332/332.970.jpg</picture>
+        <description>Крем применяется для осветления кожи в профессиональных процедурах и домашнем уходе.</description>
+        <url>https://jesmedexpert.ru/unitone-neuro-cream-neyrokrem-osvetlyayushchiy-giperpigmentatsiyu-s-inkapsulirovannym-biomimeticheskim-peptidom-50-ml</url>
+      </offer>
+      <offer id="3365" available="true">
+        <name>V Shape Mask - тканевая маска, моделирующая овал лица, 1шт.</name>
+        <price>1740</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/65/33/3365/images/378/378.970.jpg</picture>
+        <description>Тканевая маска обладает эффектом разглаживания морщин и предотвращения образования новых.</description>
+        <url>https://jesmedexpert.ru/v-shape-mask-tkanevaya-maska-modeliruyushchaya-i-uluchshayushchaya-oval-litsa-1-sht</url>
+      </offer>
+      <offer id="3361" available="true">
+        <name>V Zone Reconstructor - крем, корректирующий овал лица, 50мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/61/33/3361/images/376/376.970.jpg</picture>
+        <description>Дермальный крем для коррекции увядания кожи по деформационному типу с эффектом «подтяжки» овала лица.</description>
+        <url>https://jesmedexpert.ru/v-zone-reconstructor-krem-korrektiruyushchiy-oval-litsa-50-ml</url>
+      </offer>
+      <offer id="3275" available="true">
+        <name>Woman Definition Blooming Foam - очищающая пенка с фитоэстрогенами, 200мл</name>
+        <price>3160</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/75/32/3275/images/392/392.970.png</picture>
+        <description>Омолаживающая очищающая пенка с фитоэстрогенами для коррекции возрастных изменений кожи.</description>
+        <url>https://jesmedexpert.ru/woman-definition-blooming-foam-ochishchayushchaya-penka-s-fitoestrogenami-dlya-litsa</url>
+      </offer>
+      <offer id="3277" available="true">
+        <name>Woman Definition Essence Water - тоник с фитоэстрогенами и витамином С, 200мл</name>
+        <price>2900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/77/32/3277/images/393/393.970.png</picture>
+        <description>"оживляющая кожу вода" - действует более интенсивно, чем обычный  тоник. Он сочетает в себе действие фитоэстрогенов и витамина С, возвращает коже сияние и необходимый ровень увлажнения, подготавливает кожу к  нанесению крема.</description>
+        <url>https://jesmedexpert.ru/woman-definition-essence-water-tonik-s-fitoestrogenami-i-vitaminom-s-200-m</url>
+      </offer>
+      <offer id="3281" available="true">
+        <name>Woman Definition Estri Cream - омолаживающий крем с фитоэстрогенами, 50мл</name>
+        <price>8310</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>120</categoryId>
+        <picture>https://jesmedexpert.ru/wa-data/public/shop/products/81/32/3281/images/388/388.970.png</picture>
+        <description>Дермоэстетический крем с фитоэстрогенами для зрелой кожи. Оказывает поддержку в период гормональных изменений и возвращает коже молодой вид.</description>
+        <url>https://jesmedexpert.ru/woman-definition-estri-cream-omolazhivayushchiy-krem-s-fitoestrogenami-dlya-litsa-50-ml</url>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
