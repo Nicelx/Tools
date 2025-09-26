@@ -2,29 +2,22 @@
 .malina__card-link {
     --height: 480px;
     --width: 280px;
-    width: 0;
-    height: 0;
     position: absolute;
-    top: -30px;
-    /* left: -4000px; */
     opacity: 0;
     visibility: hidden;
     z-index: -10;
-    /* transform: translate(-3000px, -3000px); */
-    /* pointer-events: pointerenter; */
-    pointer-events: none
 }
 .malina__card-link.malina__card--active {
+    transform: translate(0, -200px);
     width: var(--width);
     height: var(--height);
-    /* left: 50%; */
     visibility: visible;
     z-index: 10000;
     opacity: 1;
-    /* transform: translate(0); */
-    /* pointer-events: all; */
 }
-
+.malina__card-link img {
+  width: 100%;
+}
 
 .malina__backdrop {
   transition: 0.8s ease-in-out;
@@ -41,11 +34,6 @@
 
 .malina__logo-img {
     cursor: pointer;
-    pointer-events: auto !important;
-}
-
-.malina__logo-wrapper * {
-  box-sizing: border-box;
 }
 
 .malina__card {
@@ -71,7 +59,6 @@
   z-index: -1;
 }
 
-/* .malina__card:hover .malina__wrapper { */
 .malina__card--active .malina__wrapper {
   transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
   box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
@@ -138,10 +125,6 @@
   opacity: 1;
   transform: translate3d(0%, -42%, 100px) scale(1.4);
 }
-img {
-  width: 100%;
-}
-
 
 @keyframes heartbeat {
   0% {
