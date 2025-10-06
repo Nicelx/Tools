@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* add Styles */
+    :root {
+      --progress-width: 0%;
+    }
+    .n-scroll-progress {
+      position: fixed;
+      top: 60px;
+      height: 7px;
+      width: 100%;
+      z-index: 900;
+    }
+
+    .n-scroll-progress::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: var(--progress-width);
+      background-image: url("https://shtokolov.com/wp-content/uploads/2025/10/progress-bar.webp");
+      background-size: cover;
+      background-position: left center;
+    }
+  </style>
+
+  <body>
+    <!-- Add html -->
+    <div class="n-scroll-progress"></div>
+
+    <section style="height: 3000px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus soluta
+      libero amet voluptatibus maiores consectetur eos repellat odit vero
+    </section>
+
+    <script>
+      // add and execute script v 0.1 testing
+      function nScrollProgress() {
+        const root = document.documentElement;
+
+        window.addEventListener("scroll", function () {
+          const totalHeight = root.scrollHeight - window.innerHeight;
+          const perc = (root.scrollTop / totalHeight) * 100;
+
+          root.style.setProperty("--progress-width", `${perc}%`);
+        });
+      }
+      nScrollProgress()
+    </script>
+  </body>
+</html>
