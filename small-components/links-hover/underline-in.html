@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- При наведении появляется полоска из центра до краёв -->
+
+    <!-- 1) Добавляем класс -->
+    <a class="underline-in" href=""></a>
+
+    <style>
+        /* 2) Стили класса */
+      .underline-in {
+        position: relative;
+      }
+      .underline-in::after {
+        display: block;
+        content: "";
+        width: 100%;
+        transform: scale(0);
+        height: 1px;
+        position: absolute;
+        bottom: 0px;
+        background-color: white;
+      }
+      .underline-in:hover::after {
+        transition: 0.3s ease-in-out;
+        transform: scale(1);
+      }
+    </style>
+  </body>
+</html>
