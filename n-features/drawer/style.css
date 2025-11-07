@@ -1,0 +1,46 @@
+/* example styles */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.drawer-content {
+  background-color: red;
+}
+
+/* copy below */
+.n-drawer,
+.n-drawer__backdrop {
+  display: none;
+}
+.n-drawer {
+  position: relative;
+  z-index: 1000;
+}
+
+.n-drawer--toBottom {
+  animation: toBottom 0.3s cubic-bezier(0.5, -0.3, 0.3, 1.5) forwards;
+}
+.n-drawer--open {
+  display: block;
+}
+.n-drawer__backdrop {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+@keyframes toBottom {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

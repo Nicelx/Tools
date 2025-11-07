@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="n-drawer n-drawer--toBottom">
+      <div class="drawer-content">
+        <p>lorem title</p>
+        <p>sdfsdf</p>
+      </div>
+    </div>
+    <div class="n-drawer__backdrop"></div>
+    <button class="some-trigger">click</button>
+
+    <script src="./index.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        console.log("hi");
+        new NDrawer({
+          drawer: ".n-drawer",
+          triggers: ".some-trigger",
+        });
+      });
+    </script>
+  </body>
+</html>
