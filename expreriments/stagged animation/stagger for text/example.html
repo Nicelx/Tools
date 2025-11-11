@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wave-text" id="animated-text">
+      ООО «Филд-Мастер» – медицинский центр, основанный в 2002 году Болтуновым
+      Сергеем Анатольевичем. Специализируется на оказании остеопатических услуг.
+      За 22 года своей деятельности мы объединили в одну команду высококлассных
+      специалистов. Основной принцип работы Центра заключается в
+      междисциплинарном подходе, который дает возможность достигать максимально
+      эффективный результат в лечении, существенно экономя время и средства
+      пациентов.
+    </div>
+    <p>
+        ООО «Филд-Мастер» – медицинский центр, основанный в 2002 году Болтуновым
+          Сергеем Анатольевичем. Специализируется на оказании остеопатических услуг.
+          За 22 года своей деятельности мы объединили в одну команду высококлассных
+          специалистов. Основной принцип работы Центра заключается в
+          междисциплинарном подходе, который дает возможность достигать максимально
+          эффективный результат в лечении, существенно экономя время и средства
+          пациентов.
+    </p>
+    <style>
+      .wave-text {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+        font-size: 16px;
+        /* padding: 20px; */
+        cursor: pointer;
+      }
+
+      .letter {
+        display: inline-block;
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transform-origin: center bottom;
+      }
+
+      /* Базовые состояния для плавности */
+      .wave-text:hover .letter {
+        transition-duration: 0.4s;
+      }
+    </style>
+
+    <script>
+      function createWaveText(selector) {
+        const element = document.querySelector(selector);
+        const text = element.textContent.trim();
+
+        // Разбиваем текст на буквы
+        const letters = text.split("");
+
+        // Создаем элементы для каждой буквы
+        element.innerHTML = letters
+          .map(
+            (letter, index) =>
+              `<span class="letter" data-index="${index}">${
+                letter === " " ? "&nbsp;" : letter
+              }</span>`
+          )
+          .join("");
+
+        const letterElements = element.querySelectorAll(".letter");
+
+        // Обработчики событий
+        element.addEventListener("mouseenter", (e) => {
+          if (e.target.classList.contains("letter")) {
+            const hoveredIndex = parseInt(e.target.dataset.index);
+            applyWaveEffect(letterElements, hoveredIndex);
+          }
+        });
+
+        element.addEventListener("mousemove", (e) => {
+          if (e.target.classList.contains("letter")) {
+            const hoveredIndex = parseInt(e.target.dataset.index);
+            applyWaveEffect(letterElements, hoveredIndex);
+          }
+        });
+
+        element.addEventListener("mouseleave", () => {
+          resetWaveEffect(letterElements);
+        });
+      }
+
+      function applyWaveEffect(letters, centerIndex) {
+        const maxDistance = 8; // Максимальное расстояние для эффекта
+        const baseScale = 1; // Базовый масштаб
+        const maxScale = 3; // Максимальное увеличение (100%)
+
+        letters.forEach((letter, index) => {
+          const distance = Math.abs(index - centerIndex);
+
+          if (distance <= maxDistance) {
+            // Вычисляем масштаб на основе расстояния
+            const scale = calculateScale(
+              distance,
+              maxDistance,
+              baseScale,
+              maxScale
+            );
+            const rotation = calculateRotation(distance, centerIndex - index);
+
+            letter.style.transform = `scale(${scale}) rotate(${rotation}deg)`;
+            // letter.style.color = calculateColor(distance);
+            letter.style.zIndex = maxDistance - distance + 1;
+          } else {
+            // Сбрасываем для букв вне радиуса
+            letter.style.transform = `scale(${baseScale})`;
+            // letter.style.color = "";
+            letter.style.zIndex = "";
+          }
+        });
+      }
+
+      function calculateScale(distance, maxDistance, baseScale, maxScale) {
+        // Параболическое затухание - чем дальше, тем меньше масштаб
+        const progress = 1 - distance / maxDistance;
+        return baseScale + (maxScale - baseScale) * Math.pow(progress, 2);
+      }
+
+      function calculateRotation(distance, direction) {
+        // Добавляем небольшой поворот для объема
+        return direction * (2 - distance * 0.5);
+      }
+
+    //   function calculateColor(distance) {
+       
+    //     const intensity = 255 - distance * 40;
+    //     return `rgb(${intensity}, 100, 100)`;
+    //   }
+
+      function resetWaveEffect(letters) {
+        letters.forEach((letter) => {
+          letter.style.transform = "scale(1)";
+          letter.style.color = "";
+          letter.style.zIndex = "";
+        });
+      }
+
+      // Инициализация
+      createWaveText("#animated-text");
+    </script>
+  </body>
+</html>

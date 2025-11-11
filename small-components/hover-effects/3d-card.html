@@ -7,6 +7,13 @@
   </head>
   <body>
     <style>
+      /* 
+        v.0
+        0 TO-DO!!!
+            - optimize for many cards (throttling etc)
+            - make config
+        */
+
       * {
         box-sizing: border-box;
       }
@@ -28,16 +35,19 @@
         transform: perspective(800px);
       }
       .n-card__card {
-        transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: 0.2s cubic-bezier(0.23, 1, 0.32, 1);
       }
-      .n-card__leave .n-card__card {
-        transition: .5s ease-in-out .1s !important;
+      .n-card__leave > .n-card__card {
+        transition: 0.5s ease-in-out 0.1s !important;
         transform: perspective(1000px) rotateX(0) rotateY(0) !important;
       }
     </style>
 
+    <!-- 2) add n-card and n-card__card -->
     <div class="card-grid">
-      <!-- 2) add n-card and n-card__card -->
+      <div class="n-card">
+        <div class="n-card__card your-styles"></div>
+      </div>
       <div class="n-card">
         <div class="n-card__card your-styles"></div>
       </div>
@@ -50,12 +60,12 @@
     </div>
 
     <script>
-        // 3)add scripts
+      // 3)add scripts
       const cards = document.querySelectorAll(".n-card");
       cards.forEach((card) => {
+        const cardRect = card.getBoundingClientRect();
         card.addEventListener("mousemove", (e) => {
           card.classList.remove("n-card__leave");
-          const cardRect = card.getBoundingClientRect();
 
           const x = e.clientX - cardRect.left;
           const y = e.clientY - cardRect.top;

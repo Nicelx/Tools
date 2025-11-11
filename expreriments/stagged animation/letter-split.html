@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="some-text">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+      officia inventore architecto, quae totam delectus nulla quis magnam rerum
+      repellendus!
+    </p>
+
+    <!-- to compare styles -->
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+      officia inventore architecto, quae totam delectus nulla quis magnam rerum
+      repellendus!
+    </p>
+
+    <script>
+      // 1) describe function
+      //   v0 testing
+      function makeLetters(selector) {
+        const items = document.querySelectorAll(selector);
+        if (!items) throw new Error("no items");
+
+        const textEl = document.querySelector(selector);
+
+        let finalHTML = "";
+        const textArr = textEl.textContent.split("");
+        textArr.forEach((letter) => {
+          if (letter === " ") {
+            finalHTML += " ";
+          } else {
+            finalHTML += `<span>${letter}</span>`;
+          }
+        });
+
+        textEl.innerHTML = finalHTML;
+      }
+
+
+      // 2) execute function with selectors
+      makeLetters(".some-text");
+    </script>
+  </body>
+</html>
