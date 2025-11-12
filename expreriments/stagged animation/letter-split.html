@@ -22,29 +22,47 @@
 
     <script>
       // 1) describe function
-      //   v0 testing
+      //   v0.01 testing
       function makeLetters(selector) {
         const items = document.querySelectorAll(selector);
         if (!items) throw new Error("no items");
 
-        const textEl = document.querySelector(selector);
+        items.forEach(() => {
+          let finalHTML = "";
+          const textArr = textEl.textContent.split("");
+          textArr.forEach((letter) => {
+            if (letter === " ") {
+              finalHTML += " ";
+            } else {
+              finalHTML += `<span>${letter}</span>`;
+            }
+          });
 
-        let finalHTML = "";
-        const textArr = textEl.textContent.split("");
-        textArr.forEach((letter) => {
-          if (letter === " ") {
-            finalHTML += " ";
-          } else {
-            finalHTML += `<span>${letter}</span>`;
-          }
+          textEl.innerHTML = finalHTML;
         });
-
-        textEl.innerHTML = finalHTML;
       }
 
-
       // 2) execute function with selectors
-      makeLetters(".some-text");
+      // makeLetters(".some-text");
+
+      // -- variation for words;
+      function makeWords(selector) {
+        const el = document.querySelector(selector);
+        if (!el) throw new Error("no elements");
+
+        let finalHTML = "";
+        let removedSpaces = el.textContent.replace(/ +/g, ' ').trim();
+
+        const textArr = removedSpaces.split(" ");
+
+        textArr.forEach(word => {
+          finalHTML+= `<span>${word} </span>`;
+        })
+
+         el.innerHTML = finalHTML;
+      }
+
+      makeWords(".some-text");
     </script>
   </body>
 </html>
