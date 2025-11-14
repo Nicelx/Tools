@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- v0.00 demo -->
+
+    <!-- 1) make structure -->
+    <div class="video-block">
+      <video class="video">
+        <source src="src.mp4" type="video/mp4" />
+        Ваш браузер не поддерживает видео.
+      </video>
+      <button class="video__play">
+        <img src="src.svg" alt="" />
+      </button>
+    </div>
+
+    <!-- 2) add js -->
+    <script defer>
+      function enablePlayBtn() {
+        const videoBlocks = document.querySelectorAll(".video-block");
+        if (videoBlocks.length <= 0) return;
+
+        videoBlocks.forEach((videoBlock) => {
+          const videoEl = videoBlock.querySelector(".video");
+          const btn = videoBlock.querySelector(".video__play");
+
+          btn.addEventListener("click", () => {
+            play(videoEl, btn);
+          });
+          videoEl.addEventListener("click", () => {
+            play(videoEl, btn);
+          });
+
+          videoEl.addEventListener("ended", () => {
+            btn.style.display = "block";
+          });
+        });
+      }
+      function play(videoEl, playEl) {
+        if (videoEl.paused) {
+          videoEl.play();
+          playEl.style.display = "none";
+        } else {
+          videoEl.pause();
+          playEl.style.display = "block";
+        }
+      }
+
+      enablePlayBtn();
+    </script>
+  </body>
+</html>
