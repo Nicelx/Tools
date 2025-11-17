@@ -3,7 +3,7 @@ class NMagnet {
   constructor(option) {
     this.selector = option.selector;
     this.powerX = option.powerX ? option.powerX : 0.6 
-    this.powerY = option.powerX ? option.powerY : 2
+    this.powerY = option.powerY ? option.powerY : 2
     this.init();
   }
 
