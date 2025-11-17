@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnetic Button</title>
+    <!-- 1) add css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- 2) add class n-magnet-item -->
+    <a href="#" class="selector n-magnet-item"><span>Magic Button</span></a>
+
+    <!-- 3) add js -->
+    <script defer src="script.js"></script>
+
+    <!-- 4) init -->
+    <script defer>
+        window.addEventListener('DOMContentLoaded', () => {
+            new NMagnet({
+                selector: '.selector'
+            })
+        })
+    </script>
+  </body>
+</html>
