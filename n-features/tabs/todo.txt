@@ -1,0 +1,3 @@
+-fix this. this way we break nested tabs
+triggers = document.querySelectorAll(option.selector + ' .n-tabs__triggers .n-tabs__item')
+this.contentList = document.querySelectorAll(option.selector + ' .n-tabs__content .n-tabs__item')

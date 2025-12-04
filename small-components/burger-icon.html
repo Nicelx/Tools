@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- option 1 -->
+    <!-- <style>
+       .plate4{
+        --size: 80px;
+        transform: scale(0.4);
+       }
+      svg {
+        height: var(--size);
+        position: absolute;
+        width: var(--size);
+      }
+      .n-burger {
+        filter: url(#gooeyness);
+      }
+      .x {
+        transform: scale(0);
+        transition: transform 400ms;
+      }
+      .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: 50%;
+        transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+          transform 500ms 200ms;
+      }
+      .x .line {
+        stroke-width: 5.5px;
+      }
+      .active .line {
+        transition: stroke-dasharray 500ms, stroke-dashoffset 500ms,
+          transform 500ms;
+      }
+      .active .x {
+        transform: scale(1);
+        transition: transform 400ms 350ms;
+      }
+      .plate4 .x {
+        transition: transform 400ms;
+      }
+      .plate4 .line {
+        transform-origin: 50%;
+        transition: transform 400ms 100ms;
+      }
+      .active.plate4 .line {
+        transition: transform 400ms;
+      }
+      .active.plate4 .line1 {
+        transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+      }
+      .active.plate4 .line2 {
+        transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+      }
+      .active.plate4 .line3 {
+        transform: translateY(0px) rotate(45deg) scale(0.7);
+      }
+      .active.plate4 .line4 {
+        transform: translateY(0px) rotate(-45deg) scale(0.7);
+      }
+      .active.plate4 .line5 {
+        transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+      }
+      .active.plate4 .line6 {
+        transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+      }
+      .active.plate4 .x {
+        transition: transform 400ms 100ms;
+        transform: scale(1);
+      }
+    </style>
+
+    <svg>
+      <defs>
+        <filter id="gooeyness">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+            result="gooeyness"
+          />
+          <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="plate4" onclick="this.classList.toggle('active')">
+      <svg
+        class="n-burger"
+        version="1.1"
+        height="100"
+        width="100"
+        viewBox="0 0 100 100"
+      >
+        <path class="line line1" d="M 50,35 H 30" />
+        <path class="line line2" d="M 50,35 H 70" />
+        <path class="line line3" d="M 50,50 H 30" />
+        <path class="line line4" d="M 50,50 H 70" />
+        <path class="line line5" d="M 50,65 H 30" />
+        <path class="line line6" d="M 50,65 H 70" />
+      </svg>
+      <svg
+        class="x"
+        version="1.1"
+        height="100"
+        width="100"
+        viewBox="0 0 100 100"
+      >
+        <path class="line" d="M 34,32 L 66,68" />
+        <path class="line" d="M 66,32 L 34,68" />
+      </svg>
+    </div> -->
+
+    <!-- option 2 -->
+
+    <style>
+      body {
+        background-color: black;
+        padding: 100px
+      }
+      .n-burger {
+        --size: 20px;
+        --stroke-size: 2px;
+        --clr: white;
+        width: var(--size);
+        height: var(--size);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: .3s ease-in-out;
+      }
+      .n-burger::before, .n-burger::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: var(--stroke-size);
+        background-color: var(--clr);
+        transition: .3s ease-in-out;
+        transform-origin: left center;
+      }
+      .n-burger::before {
+        top: 0px;
+      }
+      .n-burger::after {
+        bottom: 0px;
+      }
+      .n-burger__center {
+        width: var(--size);
+        height: var(--stroke-size);
+        background-color: var(--clr);
+        /* opacity: 1; */
+        transition: .3s ease-in-out;
+      }
+
+      .n-burger--active .n-burger__center {
+        width: 0;
+        opacity: 0;
+      }
+      .n-burger--active.n-burger::after {
+        transform: rotate(-45deg);
+      }
+      .n-burger--active.n-burger::before {
+        transform: rotate(45deg);
+      }
+      
+
+    </style>
+
+    <div class = "n-burger" onclick="this.classList.toggle('n-burger--active')">
+      <div class="n-burger__center"></div>
+    </div>
+  </body>
+</html>

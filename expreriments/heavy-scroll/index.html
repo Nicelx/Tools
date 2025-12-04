@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .block {
+      background-color: blueviolet;
+      margin-inline: auto;
+      border-radius: 20px;
+      height: 60px;
+      position: fixed;
+      top: 20px;
+      width: 80%;
+      z-index: 2;
+      transform: translateY(0);
+      transition: 0.2s ease-in;
+    }
+
+    .block--active {
+         --offset: 0px;
+        transform: translateY(var(--offset)) scale(1.005, 0.65);
+    }
+    .spacer {
+      height: 500px;
+      margin-bottom: 100px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  </style>
+  <body>
+    <div class="block">sdf</div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+  </body>
+
+  <script>
+    class NScrollHeavy {
+      constructor() {
+        this.newY = 0;
+        this.oldY = 0;
+        const el = document.querySelector('.block');
+
+        window.addEventListener("scroll", (e) => {
+          this.oldY = this.newY;
+          this.newY = window.pageYOffset;
+
+          this.offset = this.newY - this.oldY;
+            if (this.offset > 50 || this.offset < -50) this.offset = 10;
+            if (this.offset > 0 && this.offset <=50) this.offset = 10;
+            if (this.offset < 0 && this.offset >= -50) this.offset = -10;
+
+          el.classList.add('block--active')
+          setTimeout(() => {
+              el.classList.remove('block--active')
+          }, 200)
+          el.style.setProperty('--offset', `${-this.offset}px`);
+        });
+      }
+    }
+
+    new NScrollHeavy();
+  </script>
+</html>

@@ -12,15 +12,24 @@ body {
 .n-drawer,
 .n-drawer__backdrop {
   display: none;
+  --from-transform: translateY(-100%);
 }
 .n-drawer {
   position: relative;
   z-index: 1000;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.5, -0.3, 0.3, 1.5);
+  animation-fill-mode: forwards;
 }
 
 .n-drawer--toBottom {
-  animation: toBottom 0.3s cubic-bezier(0.5, -0.3, 0.3, 1.5) forwards;
+  animation-name: toBottom;
 }
+.n-drawer--toLeft {
+  animation-name: toLeft;
+}
+
+
 .n-drawer--open {
   display: block;
 }
@@ -42,5 +51,15 @@ body {
   to {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+@keyframes toLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
