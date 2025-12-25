@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 1) add css and js -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div style="padding: 120px 60px">
+      <span class="trigger">
+        <!-- 2)mark tooltip as n-tooltip class and put it inside trigger-->
+        <div class="n-tooltip custom-tooltip-selector">content</div>
+        tooltip element
+      </span>
+    </div>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        // 3) init tooltip
+        new NTooltip({ trigger: ".trigger" });
+      });
+    </script>
+  </body>
+</html>
