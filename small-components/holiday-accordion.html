@@ -8,6 +8,90 @@
 </head>
 
 <body>
+    <!-- new holiday accordion -->
+
+    <!-- start holiday -->
+		<style>
+		.holiday-acc {
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.holiday-acc .n-accordion__panel {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.n-accordion__panel {
+			transition: all .4s ease-in-out;
+			overflow: hidden;
+			height: 0;
+		}
+
+		.n-accordion__item {
+			cursor: pointer;
+		}
+	</style>
+		<div class="holiday-acc">
+			<div class="n-accordion__item">
+				<div class="n-accordion__header">Посмотреть расписание работы на праздниках</div>
+				<div class="n-accordion__panel">
+					<span>с 28.12 по 09.01 центр работает в обычном режиме. </span>
+					<span>Запись на прием по телефону <a href="tel:+79107324212">7 (910) 732-42-12</a></span>
+				</div>
+			</div>
+		</div>
+
+
+		<script>
+		class NAccordion {
+		  constructor(selector) {
+		    this.container = document.querySelector(selector);
+		    if (this.container) {
+		      this.items = this.container.querySelectorAll(".n-accordion__item");
+
+		      this.items.forEach((item) => {
+		        item.addEventListener("click", () => {
+		          const panel = item.querySelector(".n-accordion__panel");
+
+		          if (item.classList.contains("n-accordion__item--opened")) {
+		            panel.style.height = "0px";
+		            item.classList.remove("n-accordion__item--opened");
+		            this.isSomethingOpen = false;
+		            return;
+		          } else {
+		            panel.style.height = `${panel.scrollHeight}px`;
+		            if (this.isSomethingOpen) {
+		              const opened = this.container.querySelector(
+		                ".n-accordion__item--opened"
+		              );
+		              const openedPanel = opened.querySelector(".n-accordion__panel");
+
+		              openedPanel.style.height = "0px";
+		              opened.classList.remove("n-accordion__item--opened");
+		            }
+		            item.classList.add("n-accordion__item--opened");
+		            this.isSomethingOpen = true;
+		          }
+		        });
+		      });
+		    } else throw new Error("this.container is not defined");
+		  }
+		  isSomethingOpen = false;
+		}
+
+		window.addEventListener("DOMContentLoaded", () => {
+			new NAccordion(".holiday-acc");
+		});
+	</script>
+
+		<!-- end holiday -->
+
+
+
 
     <!-- start holidays kmz-->
     <!-- <div class="accordion">
@@ -86,71 +170,7 @@
     <!-- end of holidays -->
 
 
-    <!-- shtokolov -->
-    <!-- <div class="accordion">
-              <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
-              <div class="accordion__bottom">
-            <p>
-                с 28.12 по 09.01 центр работает в обычном режиме. Запись на прием по телефону <a style = "color: white" href="tel:+79107324212">7 (910) 732-42-12</a>
-            </p>
-          </div>
-            </div>
-            <style>
-                .accordion {
-                    width: 100%;
-                    background-color: white;
-                }
-                .accordion__top {
-                    height: 50px;
-                    text-align: center;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    cursor: pointer;
-                    position: relative;
-                }
-                .accordion__bottom {
-                    border-top: 1px solid black;
-                    height: 0;
-                    overflow: hidden;
-                    transition: all .4s ease;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: black;
-                    color: white;
-                }
-                .show {
-                    height: 80px;
-                    padding: 30px;
-                }
-                .accordion {
-                    margin-top: 66px;
-                }
-                @media screen and (max-width: 780px) {
-                    .accordion {
-                        margin-top: 60px;
-                    }
-                }
-                    .services {
-                        margin-top: -60px;
-                    }
-            </style> -->
-
-    <!-- <script>
-        const toggleAccordion = () => {
-            const contentEl = document.querySelector('.accordion__bottom');
-            if (contentEl.classList.contains('show')) {
-                contentEl.classList.remove('show')
-            } else {
-                contentEl.classList.add('show');
-            };
-        }
-
-        const accordion = document.querySelector('.accordion');
-
-        accordion.addEventListener('click', toggleAccordion)
-    </script> -->
+   
 
 
     <!-- Octava -->
@@ -226,80 +246,7 @@
     </script> -->
 
 
-    <!-- Fieldmaster -->
-
-    <!-- <div class="accordion">
-        <div class="accordion__top">Посмотреть расписание работы на праздниках</div>
-        <div class="accordion__bottom">
-            <p>
-                <span>С 1 по 9 мая центр не работает</span>
-            </p>
-        </div>
-    </div>
-
-    <style>
-        .accordion {
-            width: 100%;
-            background-color: white;
-            font-size: 1.2rem;
-            font-weight: 500;
-
-        }
-
-        .accordion__top {
-            height: 50px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            color: var(--color-primary);
-            font-weight: 700;
-        }
-
-        .accordion__bottom {
-
-            height: 0;
-            overflow: hidden;
-            transition: all .4s ease;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--color-primary);
-            color: white;
-        }
-
-        .accordion__bottom p {
-            color: white;
-            font-size: 1.2rem;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        .show-accordion {
-            height: 80px;
-            padding: 10px;
-        }
-    </style>
-    <script>
-        const toggleAccordion = () => {
-            const contentEl = document.querySelector('.accordion__bottom');
-            if (contentEl.classList.contains('show-accordion')) {
-                contentEl.classList.remove('show-accordion')
-            } else {
-                contentEl.classList.add('show-accordion');
-            };
-        }
-
-        const accordionHoliday = document.querySelector('.accordion');
-
-
-        accordionHoliday.addEventListener('click', toggleAccordion)
-    </script> -->
-
-
-
+    
 
     <!-- JES -->
 
@@ -323,6 +270,88 @@
     <!--     <a style = "font-size: 18px; font-weight: 700;text-decoration: none;color:white" href="https://jesmedexpert.ru/wa-data/public/site/temp%20schedule.jpeg">Посмотреть расписание на майские праздники</a></div>`;-->
     <!--     document.body.prepend(elementHoliday);-->
     <!-- </script>-->
+
+    <!-- JES NEW ACCORDION  -->
+
+    <!-- HOLIDAY START --> 
+    
+    <style>
+		.holiday-acc {
+			background-color: #BCC6D1;
+			color: white;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.holiday-acc .n-accordion__panel {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.n-accordion__panel {
+			transition: all .4s ease-in-out;
+			overflow: hidden;
+			height: 0;
+		}
+
+		.n-accordion__item {
+			cursor: pointer;
+		}
+	</style>
+		<div class="holiday-acc">
+			<div class="n-accordion__item">
+				<div class="n-accordion__header">Посмотреть расписание работы на праздниках</div>
+				<div class="n-accordion__panel">
+					<span>режим </span>
+					<span>режим</span>
+				</div>
+			</div>
+		</div>
+
+
+		<script>
+		class NAccordion {
+		  constructor(selector) {
+		    this.container = document.querySelector(selector);
+		    if (this.container) {
+		      this.items = this.container.querySelectorAll(".n-accordion__item");
+
+		      this.items.forEach((item) => {
+		        item.addEventListener("click", () => {
+		          const panel = item.querySelector(".n-accordion__panel");
+
+		          if (item.classList.contains("n-accordion__item--opened")) {
+		            panel.style.height = "0px";
+		            item.classList.remove("n-accordion__item--opened");
+		            this.isSomethingOpen = false;
+		            return;
+		          } else {
+		            panel.style.height = panel.scrollHeight + "px";
+		            if (this.isSomethingOpen) {
+		              const opened = this.container.querySelector(
+		                ".n-accordion__item--opened"
+		              );
+		              const openedPanel = opened.querySelector(".n-accordion__panel");
+
+		              openedPanel.style.height = "0px";
+		              opened.classList.remove("n-accordion__item--opened");
+		            }
+		            item.classList.add("n-accordion__item--opened");
+		            this.isSomethingOpen = true;
+		          }
+		        });
+		      });
+		    } else throw new Error("this.container is not defined");
+		  }
+		  isSomethingOpen = false;
+		}
+
+		window.addEventListener("DOMContentLoaded", () => {
+			new NAccordion(".holiday-acc");
+		});
+	</script>
+    <!-- HOLIDAY END -->
 </body>
 
 </html>
