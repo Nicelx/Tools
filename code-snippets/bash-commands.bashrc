@@ -1,16 +1,10 @@
 
-# connect to server
-ssh user@192.168.1.10
 
 # activate package manager
 corepack enable
 corepack prepare yarn@stable --activate
 
-# FS
-# extract
-tar -xvf filename.tar
-# rename or move
-mv demo-wp wp
+
 # create empty file
 touch /etc/nginx/default.conf
 
