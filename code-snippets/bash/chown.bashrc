@@ -1,0 +1,1 @@
+chown -R bitrix:bitrix /home/bitrix/www/path (назначаем пользователя bitrix владельцем)
