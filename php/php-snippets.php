@@ -50,3 +50,9 @@ function getTimeToRead($text)
 
     return $minutes;
 }
+
+function pr($arg) {
+    echo '<pre>';
+    print_r($arg);
+    echo '</pre>';
+}
