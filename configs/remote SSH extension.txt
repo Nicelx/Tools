@@ -1,0 +1,16 @@
+.vscode/settings.json 
+// снижает нагрузку на сервер, при подключении с использовнием расширения
+
+{
+    "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/bitrix/**": true,
+    "**/upload/**": true,
+    "**/node_modules/*/**": true
+  },
+  "search.exclude": {
+    "**/bitrix/cache/**": true,
+    "**/upload/**": true
+  }
+}
