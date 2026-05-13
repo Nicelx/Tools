@@ -8,7 +8,8 @@ docker run -p 8080:80 nginx
 docker compose up -d
 # остановить и удалить контейнеры
 docker compose down
-
+# удаляет вместе с данными!
+docker compose down -v
 
 # список запущенных процессов
 docker ps

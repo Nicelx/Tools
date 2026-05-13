@@ -1,0 +1,10 @@
+
+
+===== FILE: folder-example/file-example =====
+
+file-example
+some code
+
+===== FILE: 1.txt =====
+
+code example of 1.txt file
