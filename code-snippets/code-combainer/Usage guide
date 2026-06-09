@@ -1,0 +1,7 @@
+- copy combine.sh and paths to root folder
+- ./combines.sh  - execution
+- sometimes required to grant rights 
+chmod +x combine.sh
+- files in paths.txt writes from combine.sh relativity. 
+local/lib/etc instead of /local/lib/etc.
+- type file extension .php, .js etc
