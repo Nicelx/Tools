@@ -1,19 +1,38 @@
 #!/bin/bash
 
-OUTPUT="combined.txt"
+# локация результата
+OUTPUT="local/docs/combined.txt"
+# локация путей
+PATHS_FILE="local/docs/paths.txt"
 
 > "$OUTPUT"
 
-while IFS= read -r file; do
+add_file() {
+    local file="$1"
 
-  if [ -f "$file" ]; then
     echo -e "\n\n===== FILE: $file =====\n" >> "$OUTPUT"
     cat "$file" >> "$OUTPUT"
 
     echo "[OK] $file"
+}
 
-  else
-    echo "[MISSING] $file"
-  fi
+while IFS= read -r path; do
 
-done < paths.txt
+    # пропускаем пустые строки и комментарии
+    [[ -z "$path" || "$path" =~ ^[[:space:]]*# ]] && continue
+
+    if [ -f "$path" ]; then
+        add_file "$path"
+
+    elif [ -d "$path" ]; then
+        echo "[DIR] $path"
+
+        while IFS= read -r file; do
+            add_file "$file"
+        done < <(find "$path" -type f | sort)
+
+    else
+        echo "[MISSING] $path"
+    fi
+
+done < "$PATHS_FILE"

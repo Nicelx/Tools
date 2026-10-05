@@ -1,2 +1,0 @@
-folder-example/file-example
-1.txt
